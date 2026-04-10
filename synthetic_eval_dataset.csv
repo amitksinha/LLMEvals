@@ -1,0 +1,6 @@
+id,ticket_text,gold_category,gold_priority,gold_sentiment
+ex_001,I was charged twice for my subscription and need a refund.,billing,high,negative
+ex_002,The mobile app crashes every time I upload a PDF.,technical,high,negative
+ex_003,I cannot sign in even after resetting my password twice.,account,high,negative
+ex_004,Do you offer nonprofit discounts for annual plans?,other,low,neutral
+ex_005,Please update the email on my account because I lost access to the old one.,account,medium,neutral

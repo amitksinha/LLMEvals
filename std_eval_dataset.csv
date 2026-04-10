@@ -1,0 +1,1311 @@
+Number,Standard,Question Level,Query,Response
+1,49 CFR Part 192,"Easy (Quick checks, usually 1 sentence questions)",When is overpressure protection required on a distribution line?,"Overpressure protection is required on a distribution line **whenever the line could be exposed to pressures that exceed its maximum allowable operating pressure (MAOP)** as a result of failures in pressure control equipment or upstream pressure sources.
+
+In distribution systems supplied from a **higher-pressure source**, the code requires pressure regulation and protective devices that are capable of preventing **accidental overpressuring** of the downstream system. This applies broadly to distribution lines where a regulator failure, improper operation, or other abnormal condition could allow pressure to rise above safe limits.
+
+For **high-pressure distribution systems**, additional constraints apply. A segment may not be operated above the lowest applicable pressure limit, which includes the MAOP and, in systems operating above 60 psig, whether service lines are equipped with compliant pressure limiting devices in series. Where those limits apply, overpressure protective devices must be installed and set so that MAOP is not exceeded.
+
+For **low-pressure distribution systems**, the requirement is framed in terms of safety at the customer level: the system must be protected so pressure does not reach a level that would cause unsafe operation of properly adjusted gas utilization equipment.
+
+In practice, this means overpressure protection is required anytime a distribution line is connected to a pressure source that could exceed the line’s MAOP or create unsafe downstream conditions without protective devices in place.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.195(a)–(b), *Protection against accidental overpressuring*, PDF p. 68
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(a)–(c), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(2), *Maximum allowable operating pressure: High-pressure distribution systems*, PDF p. 139
+"
+2,49 CFR Part 192,"Easy (Quick checks, usually 1 sentence questions)",Do residential service lines need excess flow valves?,"Yes—**in most cases, residential service lines do need excess flow valves (EFVs)**, but the requirement depends on the type of service and whether any listed exceptions apply.
+
+For **new or replaced service lines** serving a **single-family residence**, an EFV must be installed before the line is placed into service. The same requirement applies to certain **branched service line configurations** serving a single-family residence, including a branched line installed at the same time as the primary service or a branch added later where the original service did not have an EFV.
+
+There are, however, **specific exceptions**. An operator is not required to install an EFV if the service line does not operate at **10 psig or greater throughout the year**, if the operator has prior experience with **contaminants** that could cause the EFV to malfunction, if an EFV would **interfere with necessary operation or maintenance activities** (such as blowing liquids from the line), or if a compliant EFV is **not commercially available**.
+
+So in practice, for a typical new or replaced residential service operating at 10 psig or higher year-round, an EFV is expected unless one of the explicit exceptions can be justified and documented.
+
+**Citations (49 CFR Part 192, effective as of 12-10-2025):**
+
+* §192.383(b)(1)–(3), *Excess flow valve installation—Installation required*,, PDF pp. 92–93 
+* §192.383(c)(1)–(4), *Exceptions to excess flow valve installation requirement*, PDF p. 93 
+"
+3,49 CFR Part 192,"Easy (Quick checks, usually 1 sentence questions)",What’s the maximum operating pressure allowed for plastic pipe?,"The maximum operating pressure for plastic pipe is **not a single fixed value**; it is determined by how the pipe is **designed and qualified under the code**, with clear upper limits depending on the application and material.
+
+For **plastic pipe used in distribution systems**, the general rule is that the **design pressure may not exceed 100 psig**, unless the pipe meets specific criteria that allow a higher design pressure. This 100-psig limit is the default maximum most engineers should assume for plastic distribution mains and services.
+
+There is a limited allowance for **polyethylene (PE) pipe** to be designed for pressures **up to 125 psig**, but only when all of the conditions in the regulation are met. These conditions include requirements related to the pipe’s **material designation, manufacturing date, nominal pipe size, wall thickness, temperature limits, and applicable design factor**. If any of those conditions are not met, the 100-psig limit applies.
+
+Regardless of the allowable design pressure, the **actual maximum allowable operating pressure (MAOP)** must still be established in accordance with the design requirements for plastic pipe, and the pipeline may not be operated above that calculated MAOP.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.121(b)(1), *Design of plastic pipe*, PDF p. 48
+
+49 CFR Part 192, effective as of 12-10-2025, §192.121(c)(1)–(2), *Design of plastic pipe—Polyethylene (PE) pipe*, PDF p. 48
+"
+4,49 CFR Part 192,"Easy (Quick checks, usually 1 sentence questions)",Is pressure testing required for all new distribution pipelines?”,"Yes — **new distribution pipelines must be pressure tested or leak tested before being placed into service**, but the **type and level of testing depends on the pipeline and how it will be operated**.
+
+At a baseline, a **new segment of pipeline may not be operated** until it has been tested in accordance with **Subpart J** to substantiate the MAOP, and until **all potentially hazardous leaks have been found and eliminated**. This applies to new construction as well as pipeline segments that are relocated or replaced before being returned to service.
+
+How that requirement is met varies:
+
+* **Distribution pipelines intended to operate below 100 psig** are subject to leak testing requirements rather than full-strength pressure testing.
+* **Service lines** have their own specific leak-testing requirements prior to being placed into service.
+* **Plastic pipelines** must be tested in accordance with the plastic pipeline testing requirements, including a minimum test pressure tied to a percentage of the intended operating pressure (or a stated minimum pressure), with additional temperature-related limitations.
+
+So while every new distribution pipeline must be tested in some form, the code does **not** require the same test method or pressure for all pipelines — it scales the reminder based on material type and operating pressure.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1)–(2), *General requirements*, PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.509, *Test requirements for pipelines to operate below 100 psig*, PDF p. 109
+
+49 CFR Part 192, effective as of 12-10-2025, §192.511, *Test requirements for service lines*, PDF p. 109
+
+49 CFR Part 192, effective as of 12-10-2025, §192.513(a)–(c), *Test requirements for plastic pipelines*, PDF pp. 109–110
+"
+5,49 CFR Part 192,"Medium (Single sentence, more nuance or scope)
+","For a distribution system operating above 60 psig, what kind of overpressure protection is required?","For a **distribution system operating above 60 psig**, the code requires **pressure regulation and overpressure protection that prevents customer delivery pressure from exceeding safe limits if pressure control fails**. Operating above 60 psig is only allowed when the downstream system is protected by **pressure limiting devices arranged in series** that meet specific regulatory criteria.
+
+In practice, this means the system must be designed so that a **single failure of a regulator cannot result in unsafe overpressuring** of service lines or customer piping. Acceptable protection methods include combinations of service regulators, monitor regulators, relief devices, or automatic shutoff devices, provided they are configured and set in accordance with the regulation.
+
+Specifically, when a distribution segment is designed to operate above 60 psig:
+
+* The system **may not exceed 60 psig** unless the **service lines are equipped with service regulators or other pressure limiting devices in series** that comply with the overpressure protection requirements.
+* Those pressure limiting devices must be capable of controlling or shutting off gas flow if downstream pressure rises above acceptable limits.
+* The protection scheme must be designed so that **failure of any single component** will not allow pressure to exceed the maximum allowable operating pressure or create unsafe conditions at the customer.
+
+From a design standpoint, this typically drives the use of **monitor regulator configurations or regulator-plus-shutoff arrangements** rather than relying on a single regulator or internal relief alone.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.197(a)–(c), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(2), *Maximum allowable operating pressure: High-pressure distribution systems*, PDF p. 139
+"
+6,49 CFR Part 192,"Medium (Single sentence, more nuance or scope)
+","Are regulators required upstream of customer meters, or can meter sets provide pressure control?","In most cases, **pressure must be regulated before gas is delivered to the customer**, but that pressure control **does not have to be a separate upstream regulator** if the **meter set itself provides compliant pressure regulation**.
+
+For distribution systems delivering gas from a higher-pressure source, the code requires that gas delivered to customers be controlled so downstream pressure stays within safe limits. This can be accomplished using a **service regulator**, and the regulation explicitly allows the pressure-relief or pressure-limiting function to be **built into the service regulator** or provided by a separate device installed downstream of it, as long as the configuration meets the applicable limits.
+
+Where inlet pressures are relatively modest (at or below the manufacturer’s safe working pressure for the service regulator), a **meter set with an integral service regulator and relief or limiting function** may be sufficient. However, when inlet pressures are higher—particularly above **125 psig**—the code requires **additional protective methods**, such as monitor regulators or automatic shutoff devices, rather than relying solely on a single regulator or internal relief.
+
+So, from a design perspective:
+
+* A separate upstream regulator is **not automatically required** if the meter set includes a service regulator that meets the pressure control and protection requirements.
+* As inlet pressures increase, the design must move beyond a single regulator arrangement to provide **redundant or higher-level overpressure protection**.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.197(a)–(c), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(3), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF p. 69
+"
+7,49 CFR Part 192,"Medium (Single sentence, more nuance or scope)
+",What testing has to be completed before a new distribution main can be put into service?,"Before a **new distribution main** can be put into service, the code requires that it be **tested to verify its integrity and establish the allowable operating pressure**, and that **any potentially hazardous leaks are identified and eliminated**. The exact testing required depends on the **material of the main** and the **pressure at which it will operate**, but some form of testing is always required.
+
+At a minimum, a new pipeline segment may not be operated until it has been tested in accordance with the test requirements in **Subpart J**, and until all potentially hazardous leaks have been located and repaired. This applies to new construction as well as relocated or replaced segments before being returned to service.
+
+For **distribution mains intended to operate below 100 psig**, the code generally allows **leak testing** rather than a full strength test, provided the testing meets the applicable requirements and pressure levels specified for that operating range.
+
+For **plastic distribution mains**, additional requirements apply. Plastic pipe must be tested in accordance with the plastic pipeline test requirements, including a minimum test pressure tied to a percentage of the intended maximum operating pressure (or a specified minimum pressure), along with temperature-related limitations during testing.
+
+So in practice, before placing a new distribution main into service, the operator must:
+
+* Perform the applicable **pressure or leak test** based on material and operating pressure
+* Use the test to substantiate the **MAOP**
+* Ensure **all potentially hazardous leaks** have been eliminated
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1)–(2), *General requirements* (testing required before operation or return to service; hazardous leaks eliminated), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.509, *Test requirements for pipelines to operate below 100 psig*, PDF p. 109
+
+49 CFR Part 192, effective as of 12-10-2025, §192.513(a)–(c), *Test requirements for plastic pipelines* (minimum test pressures and test conditions), PDF pp. 109–110
+"
+8,49 CFR Part 192,"Medium (Single sentence, more nuance or scope)
+",How is MAOP established for a newly installed distribution pipeline?,"For a **newly installed distribution pipeline**, the maximum allowable operating pressure (MAOP) is established by combining the **design limits of the pipeline** with the results of **required testing**, and then applying the specific MAOP rules that apply to distribution systems.
+
+First, the MAOP may **not exceed the lowest pressure rating of any component** in the pipeline segment. This includes pipe, valves, fittings, regulators, and any other pressure-containing components. The design pressure of the weakest element—determined using the applicable design requirements in Subparts C and D—sets an upper bound on MAOP.
+
+Second, before the pipeline can be placed into service, it must be **tested in accordance with Subpart J**, and the test results are used to substantiate the MAOP. A new segment may not be operated until it has been tested and all potentially hazardous leaks have been eliminated. For distribution pipelines, the type and pressure of the test depend on the intended operating pressure and the pipe material, but the test must be sufficient to support the MAOP being established.
+
+Finally, for **high-pressure distribution systems**, there are additional MAOP limits. A segment may not be operated above the lowest of several specified pressures, including the design pressure of the weakest element, the default 60 psig threshold (unless compliant pressure limiting devices are installed in series), and any lower pressure determined by the operator based on the operating and maintenance history of the segment. If the MAOP is established based on that history, overpressure protective devices must be installed to prevent the MAOP from being exceeded.
+
+Taken together, MAOP for a new distribution pipeline is established by:
+
+* Determining the **design pressure of the weakest element**
+* **Testing the pipeline** to substantiate that pressure
+* Applying the **distribution-specific MAOP limits and conditions**, including any requirements for overpressure protection
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1), *General requirements* (testing required to substantiate MAOP before operation), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.619(a), *Maximum allowable operating pressure: Steel or plastic pipelines* (general MAOP determination framework), PDF p. 136
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(1)–(5), *Maximum allowable operating pressure: High-pressure distribution systems* (MAOP limits for distribution pipelines), PDF p. 139
+
+49 CFR Part 192, effective as of 12-10-2025, §192.195(b), *Protection against accidental overpressuring* (overpressure protection required when MAOP is established based on operating history), PDF p. 68
+"
+9,49 CFR Part 192,"Hard (Design-context, multi-requirement, often paragraph-length)","I’m designing a distribution main that will operate at 125 psig and feed multiple customer services with meter-set regulators—what overpressure protection is required, and can regulator internal relief be credited as protection","For a distribution main operating at **125 psig** feeding multiple customer services with **meter-set regulators**, you’re in the “high-pressure distribution” world where Part 192 expects **redundant pressure control / limiting** so a single regulator failure can’t overpressure customer piping.
+
+At a high level, Part 192 does two things here:
+
+1. It requires the distribution system (since it’s supplied from a higher-pressure source than the downstream MAOP) to have pressure regulation devices that can handle normal and failure conditions, and to be designed to prevent accidental overpressuring (this is the broad overpressure protection rule).
+2. It specifically prescribes the acceptable ways to regulate/limit pressure delivered to customers when the distribution system’s maximum actual operating pressure exceeds **60 psig**.
+
+### What overpressure protection is required for >60 psig distribution (and how that applies at 125 psig)
+
+If the distribution system’s maximum actual operating pressure **exceeds 60 psig**, you must use **one** of the listed methods to “regulate and limit, to the maximum safe value” the pressure delivered to the customer. The methods include:
+
+* **Two-stage approach with a limiter on the service regulator inlet**: A qualifying service regulator plus an upstream regulator, where the upstream regulator is not set above 60 psig, and a device (relief valve or automatic shutoff) limits the service regulator inlet to 60 psig or less if the upstream regulator fails. 
+* **Service regulator + monitoring regulator** (monitor set to limit downstream pressure to a safe maximum). 
+* **Service regulator + relief valve vented to atmosphere** (with conditions and limits—see next section). 
+* **Service regulator + automatic shutoff device** that closes on downstream overpressure and stays closed until manually reset. 
+
+Also, if you’re operating a high-pressure distribution segment above 60 psig, Part 192 ties that allowance to whether the service lines in the segment are equipped with service regulators or other pressure limiting devices **in series** meeting those §192.197(c) requirements. 
+
+### Can internal regulator relief be credited as overpressure protection?
+
+It **can**, but only in a limited way.
+
+Part 192 allows a “service regulator with a relief valve vented to the outside atmosphere,” and it explicitly says the relief valve **may be built into the service regulator** (i.e., internal relief) or be a separate downstream unit. 
+
+However, that “service regulator + vented relief” combination **may be used alone only** if:
+
+* the service regulator inlet pressure does **not exceed the manufacturer’s safe working pressure rating**, **and**
+* it **may not be used** where the service regulator inlet pressure **exceeds 125 psig**. 
+
+So for your specific scenario (**125 psig distribution main feeding meter-set regulators**):
+
+* If the service regulator inlet is **≤ 125 psig** (and within the regulator’s safe working rating), then **internal relief vented to atmosphere could be part of a compliant method**, but it’s only one of the enumerated methods and it must meet the stated conditions. 
+* If the service regulator inlet is **> 125 psig**, you **cannot** rely on “service regulator + relief (even if internal)” as the stand-alone method. In that case, the rule says you must use the method with an upstream regulator + limiting device, or the service regulator + monitor regulator method. 
+
+### One more practical compliance point for the 125 psig case
+
+Because you’re right at the 125 psig boundary, the safest compliance posture is usually to avoid designing a meter set where the service regulator inlet could ever exceed 125 psig under normal or abnormal conditions (including upstream regulator failure), and instead use a configuration that meets §192.197(c)(1) or (c)(2) where appropriate. 
+
+Separately, at the system level, Part 192’s general overpressure rule still applies: if the pipeline could exceed MAOP due to pressure control failure or other failure, you need pressure relieving/limiting devices meeting §§192.199 and 192.201, and distribution systems supplied from higher pressure must be designed to prevent accidental overpressuring. 
+
+---
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.195(a)–(b), *Protection against accidental overpressuring*, PDF p. 68 
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(1)–(3), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69 
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(4), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF p. 69 
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(2), *Maximum allowable operating pressure: High-pressure distribution systems*, PDF p. 139 
+"
+10,49 CFR Part 192,"Hard (Design-context, multi-requirement, often paragraph-length)","We’re installing a steel distribution pipeline in a Class 3 area—what design limits, pressure testing, and MAOP requirements apply before it can be placed into service?","When installing a **steel distribution pipeline in a Class 3 location**, Part 192 imposes **stricter limits on design pressure, testing, and MAOP establishment** before the line can be placed into service, reflecting the higher population density and increased consequence of failure.
+
+From a **design standpoint**, the pipeline must be designed so that the **MAOP does not exceed the pressure allowed for a Class 3 location**, which is based on the pipe’s diameter, wall thickness, grade, and applicable design factor. For steel pipelines, the MAOP is limited to a percentage of specified minimum yield strength (SMYS), and that allowable percentage is lower in Class 3 locations than in lower-class areas.
+
+Before the pipeline can be operated, **pressure testing is required**. A newly installed steel distribution pipeline must be tested in accordance with Subpart J, and the test results are used to substantiate the MAOP. The pipeline may not be placed into service until it has successfully completed the required test and **all potentially hazardous leaks have been located and eliminated**. The test pressure must be high enough, relative to the intended MAOP, to validate safe operation under Class 3 conditions.
+
+When establishing **MAOP**, several limits apply simultaneously, and the MAOP must be set at the **lowest** of:
+
+* The pressure determined by the **steel pipe design formula** using the Class 3 design factor
+* The pressure justified by the **pressure test results**
+* Any lower pressure required by other applicable MAOP rules for distribution systems
+
+For high-pressure distribution segments, additional constraints apply, including the default 60-psig limit unless compliant pressure limiting devices are installed in series, and any lower pressure selected by the operator based on operating and maintenance history.
+
+In short, before placing a steel distribution pipeline in a Class 3 location into service, the operator must:
+
+* Design the pipe to meet **Class 3 stress limits**
+* **Pressure test** the pipeline in accordance with Subpart J
+* Establish MAOP based on the **most restrictive applicable limit**
+* Ensure **all potentially hazardous leaks** are eliminated
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.111(a)–(b), *Design factor (F) for steel pipe*, PDF p. 46
+
+49 CFR Part 192, effective as of 12-10-2025, §192.619(a), *Maximum allowable operating pressure: Steel or plastic pipelines*, PDF p. 136
+
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1)–(2), *General requirements* (testing required before operation or return to service; hazardous leaks eliminated), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.505(b), *Strength test requirements for steel pipelines to operate above 30 percent SMYS*, PDF p. 107
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(1)–(2), *Maximum allowable operating pressure: High-pressure distribution systems*, PDF p. 139
+"
+11,49 CFR Part 192,"Hard (Design-context, multi-requirement, often paragraph-length)","We’re replacing an existing low-pressure cast iron main with plastic pipe and planning to uprate the system—what requirements apply to uprating, regulator selection, and customer protection?","When replacing a **low-pressure cast iron main with plastic pipe** and **uprating the system**, Part 192 treats this as a **pressure increase on an existing system**, which triggers specific requirements for **uprating procedures, pressure control, testing, and customer protection** before the system can be operated at the higher pressure.
+
+From an **uprating standpoint**, you may not simply increase pressure after replacement. Before uprating, the operator must ensure that the pipeline and associated facilities are **designed, constructed, tested, and operated** to safely withstand the higher pressure. This includes verifying that all components in the uprated segment—pipe, fittings, valves, regulators, and services—are suitable for the new pressure and that the uprating is conducted in accordance with the required procedural steps.
+
+Because the replacement pipe is **plastic**, the design pressure of the new main must comply with the plastic pipe design limits. For distribution systems, the default maximum design pressure for plastic pipe is **100 psig**, unless the pipe meets the specific conditions that allow higher pressures. The new plastic main must also be **pressure tested** in accordance with the plastic pipeline test requirements, and the test must substantiate the MAOP before the uprated pressure can be used.
+
+On the **pressure control and regulator selection** side, uprating a formerly low-pressure system almost always introduces the need for **service regulators and overpressure protection** that were not previously required. If the uprated system will operate above **60 psig**, the system must meet the high-pressure distribution requirements for controlling pressure delivered to customers. This means service lines must be equipped with **pressure limiting devices in series**, such as service regulators used with monitor regulators, relief devices, or automatic shutoff devices, configured so that a single failure cannot overpressure customer piping.
+
+Even if the uprated pressure is **60 psig or less**, the system must still be protected against **accidental overpressuring**. Where the system is supplied from a higher-pressure source than the downstream MAOP, pressure relieving or limiting devices are required to prevent MAOP exceedance.
+
+From a **customer protection perspective**, additional requirements may apply at the service level. New or replaced residential service lines must be evaluated for **excess flow valve (EFV)** installation, and customer meter sets must be capable of safely regulating the new inlet pressure. Appliances and customer piping must not be exposed to pressures that could cause unsafe operation.
+
+In practical terms, uprating a low-pressure cast iron system to plastic typically requires:
+
+* Following the **uprating procedures** before increasing pressure
+* Verifying the **plastic pipe design pressure and MAOP**
+* **Pressure testing** the new main to substantiate MAOP
+* Installing **service regulators and overpressure protection** appropriate for the uprated pressure
+* Ensuring **customer services and meters are protected** against overpressure
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.555(a)–(c), *Uprating* (requirements and procedures before increasing operating pressure), PDF p. 116
+
+49 CFR Part 192, effective as of 12-10-2025, §192.121(b)(1), *Design of plastic pipe* (design pressure limits for plastic pipe in distribution systems), PDF p. 48
+
+49 CFR Part 192, effective as of 12-10-2025, §192.513(a)–(c), *Test requirements for plastic pipelines*, PDF pp. 109–110
+
+49 CFR Part 192, effective as of 12-10-2025, §192.195(a)–(b), *Protection against accidental overpressuring*, PDF p. 68
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(a)–(c), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.383(b), *Excess flow valve installation—Installation required*, PDF pp. 92–93
+"
+12,49 CFR Part 192,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","Can internal regulator relief be used as overpressure protection, or does separate protection have to be provided?","Internal regulator relief **can be used as part of an overpressure protection scheme**, but **it is not universally sufficient**, and whether it can be credited depends on **inlet pressure and system configuration**. In many cases, **separate overpressure protection is still required**.
+
+Part 192 allows pressure delivered to customers from a high-pressure distribution system to be controlled using a **service regulator equipped with a relief valve vented to the outside atmosphere**. That relief valve **may be built into the service regulator** (i.e., internal relief) or provided as a separate downstream device. When used, the relief valve is intended to limit downstream pressure if the regulator fails in an open position.
+
+However, the code places **explicit limits** on when this method can be relied upon **by itself**. A service regulator with internal (or external) relief may only be used alone if:
+
+* The **service regulator inlet pressure does not exceed the manufacturer’s safe working pressure**, and
+* The **inlet pressure does not exceed 125 psig**.
+
+If the service regulator inlet pressure **exceeds 125 psig**, this method is **not permitted**, and internal relief **cannot** be credited as the sole means of overpressure protection. In those cases, the regulation requires a different protection approach, such as:
+
+* A **service regulator used with a monitoring regulator**, or
+* An **upstream regulator with a pressure-limiting device** (relief valve or automatic shutoff) that limits pressure to 60 psig or less at the service regulator inlet, or
+* An **automatic shutoff device** downstream that closes and remains closed on overpressure.
+
+Separately from the customer-level requirements, Part 192 also requires that distribution systems be protected against **accidental overpressuring of the pipeline itself**. Where a pipeline could exceed its MAOP due to pressure control failure or other failures, pressure relieving or limiting devices must be provided to prevent MAOP exceedance. Internal service regulator relief alone is generally **not intended to protect the distribution pipeline**, only the downstream customer piping.
+
+In practice, this means:
+
+* Internal regulator relief **may be acceptable** as part of a compliant method **at or below 125 psig**, if all conditions are met.
+* Internal relief **cannot be relied on** where inlet pressures are higher, or where pipeline-level overpressure protection is required.
+* Higher-pressure systems typically require **monitor regulators, upstream limiting devices, or automatic shutoff devices**, not just internal relief.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(3), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(1)–(2), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF pp. 68–69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.195(a)–(b), *Protection against accidental overpressuring*, PDF p. 68
+"
+13,49 CFR Part 192,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","If a service line serves multiple customers, does that change the excess flow valve requirements?","Yes — **serving multiple customers can change how the excess flow valve (EFV) requirements apply**, and it depends on **how the service line is configured**.
+
+Part 192 distinguishes between a **single service line serving multiple customers** and a **branched service line configuration**, and that distinction matters.
+
+If a **single service line serves multiple customers without branching** (for example, a master-metered or multi-customer service downstream of one service line), Part 192 **does not require** installation of an EFV on that service line. The EFV requirement is not written to apply to shared, non-branched service lines serving multiple customers.
+
+However, if the configuration is a **branched service line**, the requirement can apply. A branched service line is one where a single service line branches into two or more service lines that serve **individual single-family residences**. In that case:
+
+* An EFV is required on the **branched service line** serving a single-family residence, including:
+
+  * a branch installed at the same time as the primary service, or
+  * a branch added later where the original service line did not have an EFV.
+
+As with all EFV installations, the listed exceptions still apply (for example, service pressure below 10 psig year-round, contamination concerns, operational interference, or lack of commercially available EFVs).
+
+So in practical terms:
+
+* **One service line serving multiple customers (no branching)** → EFV **not required**
+* **Branched service lines serving single-family residences** → EFV **required**, unless an exception applies
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.383(b)(1)–(3), *Excess flow valve installation—Installation required* (application to single-family and branched service lines), PDF pp. 92–93
+
+49 CFR Part 192, effective as of 12-10-2025, §192.383(a), *Excess flow valve installation—Definitions* (definition of branched service line), PDF p. 92
+
+49 CFR Part 192, effective as of 12-10-2025, §192.383(c)(1)–(4), *Exceptions to excess flow valve installation requirement*, PDF p. 93
+"
+14,49 CFR Part 192,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","If a pipeline was previously operated at low pressure, what conditions have to be met before increasing its operating pressure?","If a pipeline was previously operated at **low pressure**, you cannot simply increase the operating pressure. **Part 192 requires the pipeline to be formally uprated**, and specific conditions must be met **before** the higher pressure can be introduced.
+
+At a minimum, the operator must first determine that the pipeline and all associated facilities are **suitable for the higher pressure**. This includes verifying that the pipe material, wall thickness, joints, valves, regulators, services, and other components are designed for and compatible with the proposed uprated pressure.
+
+Before increasing pressure, the pipeline must then be **tested** in accordance with the applicable test requirements. The test must be sufficient to substantiate the new MAOP and must be completed **before** the pipeline is placed into service at the higher pressure. All potentially hazardous leaks identified during testing must be located and repaired.
+
+The uprating process must also be conducted using **written uprating procedures**, which address how pressure will be increased safely and how the system will be monitored during the uprate. These procedures are required regardless of whether the uprating is accomplished in a single step or incrementally.
+
+If the uprated pressure results in the pipeline operating as a **high-pressure distribution system** (for example, above 60 psig), additional requirements apply. In that case, the system must comply with the rules governing high-pressure distribution, including the installation of **appropriate pressure regulation and overpressure protection** to protect both the pipeline and downstream customers.
+
+In short, before increasing operating pressure on a previously low-pressure pipeline, the operator must:
+
+* Confirm the pipeline and components are **designed for the higher pressure**
+* **Test the pipeline** to substantiate the new MAOP
+* Follow **formal uprating procedures**
+* Install or verify **pressure control and overpressure protection**, as required for the uprated pressure level
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.555(a)–(c), *Uprating* (conditions and procedural requirements before increasing operating pressure), PDF p. 116
+
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1)–(2), *General requirements* (testing required before operation or return to service; hazardous leaks eliminated), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.621(a)(1)–(2), *Maximum allowable operating pressure: High-pressure distribution systems* (additional MAOP limits and conditions when uprating above low-pressure thresholds), PDF p. 139
+"
+15,49 CFR Part 192,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","Can a district regulator station rely on monitor regulation alone for overpressure protection, or is a relief valve or shutoff device also required","A **monitor regulator can be used as overpressure protection**, and a separate relief valve or automatic shutoff device is **not always required**, but only if the monitor configuration meets the conditions specified in Part 192.
+
+For distribution systems supplied from a higher-pressure source, the code allows pressure delivered downstream to be controlled using **regulators arranged in series**, including a **worker regulator with a monitoring regulator**. In a monitor configuration, the monitor regulator is set to take control and limit downstream pressure if the worker regulator fails. When properly designed and set, this configuration is an acceptable method of limiting pressure and protecting downstream piping and customer equipment.
+
+However, the monitor regulator must be capable of **independently limiting pressure** to a safe value under failure conditions. If the monitor regulator cannot adequately control pressure following a worker failure, then additional protection—such as a **relief valve** or **automatic shutoff device**—would be required to comply with the overpressure protection rules.
+
+Separately, Part 192 still requires that the **pipeline itself** be protected against accidental overpressuring. Where a failure of pressure control equipment could cause the pipeline MAOP to be exceeded, pressure relieving or limiting devices must be provided to prevent that exceedance. A properly designed monitor regulator arrangement may satisfy this requirement, but only if it is capable of preventing MAOP exceedance under credible failure scenarios.
+
+In practice, this means:
+
+* **Worker + monitor regulator in series** → acceptable as overpressure protection *if* the monitor can fully control pressure on failure
+* **Monitor unable to limit pressure alone** → additional relief or shutoff protection required
+* The protection scheme must address **both customer delivery pressure and pipeline MAOP**
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.197(c)(2), *Control of the pressure of gas delivered from high-pressure distribution systems*, PDF p. 69
+
+49 CFR Part 192, effective as of 12-10-2025, §192.195(a)–(b), *Protection against accidental overpressuring*, PDF p. 68
+"
+16,49 CFR Part 195,"Easy (Quick checks, usually 1 sentence questions)","How do I know if my pipeline falls under Part 195, or is exempt?","To determine whether your pipeline is **regulated under 49 CFR Part 195 or is exempt**, the analysis starts with **what you are transporting**, **where the pipeline is located**, and **how it operates**. Part 195 is intentionally broad, but it also lists very specific exceptions.
+
+---
+
+### Step 1: Does the pipeline transport a covered commodity?
+
+Part 195 applies to pipeline facilities used in the transportation of **hazardous liquids or carbon dioxide**. Hazardous liquids include petroleum, petroleum products, and other liquids classified as hazardous under the Hazardous Materials Regulations. If the pipeline does **not** transport a hazardous liquid or CO₂, Part 195 does not apply. 
+
+---
+
+### Step 2: Is the pipeline involved in interstate or foreign commerce?
+
+With limited exceptions, Part 195 applies to pipelines transporting hazardous liquids or CO₂ **in or affecting interstate or foreign commerce**, including pipelines on the Outer Continental Shelf. Intrastate pipelines may still be covered if PHMSA or a state agency exercises jurisdiction. 
+
+---
+
+### Step 3: Does the pipeline meet one of the “covered pipeline” categories?
+
+Unless specifically excepted, Part 195 covers:
+
+* Pipelines transporting **highly volatile liquids**
+* Pipelines (of **any diameter or pressure**) located in rural or non-rural areas
+* Pipeline segments that **cross waterways used for commercial navigation**
+* Certain **onshore gathering lines**, including those in non-rural areas or regulated rural gathering lines 
+
+If your pipeline fits any of these categories, it is generally subject to Part 195 unless an exception applies.
+
+---
+
+### Step 4: Do any explicit exceptions apply?
+
+Part 195 lists specific situations where pipelines are **excepted** from most or all requirements. Common exceptions include:
+
+* Transportation of hazardous liquid **in a gaseous state**
+* **Gravity pipelines**, except for limited reporting requirements
+* Certain **low-stress pipelines**, such as short pipelines serving refining, manufacturing, or terminal facilities that are less than one mile long and do not cross navigable waterways
+* **Unregulated rural gathering lines** (with reporting-only obligations in some cases)
+* Pipelines located entirely within **production, refining, or manufacturing facilities**
+* Transportation by **non-pipeline modes** (truck, rail, vessel, etc.) 
+
+Some excepted pipelines may still be subject to **reporting-only requirements**, even if most safety provisions do not apply.
+
+---
+
+### Step 5: Special cases and partial applicability
+
+Even when a pipeline is excepted from most requirements, certain situations can still trigger Part 195 obligations:
+
+* **Breakout tanks** associated with a covered pipeline must comply with tank-specific requirements
+* **Regulated rural gathering lines** and **low-stress pipelines** may be subject to subsets of Part 195
+* A pipeline that is **converted to hazardous liquid service** becomes subject to Part 195 upon conversion 
+
+---
+
+### Bottom line
+
+Your pipeline is subject to **Part 195** if it transports hazardous liquids or CO₂ in interstate or foreign commerce and does **not** meet one of the specific exceptions in §195.1(b). If an exception applies, the pipeline may be:
+
+* Fully exempt
+* Subject only to reporting requirements
+* Subject to a limited subset of Part 195 provisions
+
+When classification is unclear, operators typically document the applicability determination and, where necessary, confirm jurisdiction with PHMSA or the applicable state authority.
+
+---
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.0, *Scope*, PDF p. 6 
+
+49 CFR Part 195, effective as of 12-10-2025, §195.1(a)(1)–(5), *Which pipelines are covered by this Part?*, PDF pp. 6–7 
+
+49 CFR Part 195, effective as of 12-10-2025, §195.1(b)(1)–(4), *Excepted pipelines*, PDF pp. 6–7 
+
+49 CFR Part 195, effective as of 12-10-2025, §195.5(a), *Conversion to service subject to this part*, PDF p. 16 
+"
+17,49 CFR Part 195,"Easy (Quick checks, usually 1 sentence questions)",When is leak detection required for a hazardous liquids pipeline?,"Leak detection is **required for hazardous liquids pipelines**, but **when and how it must be implemented depends on when the pipeline was constructed and what type of pipeline it is**.
+
+---
+
+### Baseline requirement
+
+Part 195 requires **each hazardous liquid pipeline transporting liquid in single phase** to have a **leak detection system** that meets the requirements of §195.444. This requirement applies broadly to pipelines subject to Part 195 and is not limited only to high-consequence areas. The intent is to ensure operators can **promptly identify and respond to releases**.
+
+---
+
+### Timing depends on pipeline construction date
+
+The regulation establishes different compliance deadlines based on when the pipeline was constructed:
+
+* **Pipelines constructed on or after October 1, 2019**
+  These pipelines must have a compliant leak detection system **before being placed into service**.
+
+* **Pipelines constructed before October 1, 2019**
+  These pipelines were required to retrofit or upgrade leak detection so that it complies with §195.444 **no later than October 1, 2024**.
+
+---
+
+### What qualifies as a leak detection system
+
+Part 195 does **not mandate a single technology**. Acceptable systems may include:
+
+* Computational Pipeline Monitoring (CPM) systems
+* Other leak detection technologies or combinations of methods
+
+If CPM is used, it must be designed in accordance with **API RP 1130**, as incorporated by reference, and meet the performance-based requirements of §195.444.
+
+---
+
+### Exceptions and special cases
+
+Leak detection requirements **do not apply** to:
+
+* **Offshore gathering lines**
+* **Regulated rural gathering lines**
+
+Additionally, gravity pipelines are subject primarily to reporting requirements rather than full leak detection system requirements.
+
+---
+
+### Practical takeaway
+
+In practice, a hazardous liquids pipeline must have leak detection:
+
+* **At startup**, if newly constructed after October 1, 2019
+* **By October 1, 2024**, if it existed before that date
+* Unless it falls into a specific **gathering-line exception**
+
+Operators must ensure the system is appropriate for the pipeline’s design, operating conditions, and risk profile, and that it meets the detection, alarm, and response expectations in Part 195.
+
+---
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.134(b)(1)–(2), *Leak detection—general requirements and compliance dates*, PDF p. 41
+
+49 CFR Part 195, effective as of 12-10-2025, §195.134(c), *CPM leak detection systems*, PDF p. 41
+
+49 CFR Part 195, effective as of 12-10-2025, §195.134(d), *Exception for offshore and regulated rural gathering lines*, PDF p. 41
+
+49 CFR Part 195, effective as of 12-10-2025, §195.444, *Leak detection*, PDF pp. 83–85
+"
+18,49 CFR Part 195,"Easy (Quick checks, usually 1 sentence questions)",Are integrity assessments required for all hazardous liquids pipelines?,"No — **integrity assessments are not required for all hazardous liquids pipelines**, but they **are required for pipelines (or pipeline segments) that could affect a High Consequence Area (HCA)**.
+
+Under Part 195, integrity assessment requirements are part of the **Integrity Management (IM)** program, which applies only to **covered pipeline segments**, not to every hazardous liquids pipeline system-wide.
+
+In general, a hazardous liquids pipeline is subject to integrity assessment requirements if it:
+
+* Is subject to Part 195 **and**
+* Has one or more segments that **could affect an HCA** in the event of a release
+
+For those covered segments, the operator must develop and follow an integrity management program that includes:
+
+* Periodic **integrity assessments** using approved methods (such as in-line inspection, pressure testing, or direct assessment)
+* Evaluation of assessment results
+* Timely repair and remediation of identified conditions
+* Ongoing risk analysis and preventive/mitigative measures
+
+If a pipeline segment **does not affect an HCA**, Part 195 does **not** require integrity assessments for that segment under the IM rules, although other inspection, maintenance, and safety requirements in Part 195 still apply.
+
+There are also pipelines that are **partially covered**. For example, a pipeline may be subject to Part 195 generally, but only the segments that could affect HCAs are subject to the integrity assessment requirements. The rest of the pipeline is not exempt from Part 195, but it is outside the scope of the IM assessment rules.
+
+So, in practice:
+
+* **All hazardous liquids pipelines** → must comply with applicable Part 195 safety rules
+* **Only pipeline segments that could affect HCAs** → must undergo integrity assessments under the IM program
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (applicability of integrity management requirements), PDF pp. 86–87
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (definition of “covered pipeline segment” and “high consequence area”), PDF p. 86
+"
+19,49 CFR Part 195,"Easy (Quick checks, usually 1 sentence questions)",What products are considered ‘hazardous liquids’ under the code?,"Under Part 195, **“hazardous liquids” are defined by the type of product being transported**, not by pipeline size, pressure, or location. The definition is broad and is intended to capture liquids that present safety or environmental risks if released.
+
+In general, hazardous liquids include:
+
+* **Petroleum** (crude oil)
+* **Petroleum products**, such as gasoline, diesel fuel, jet fuel, heating oil, and similar refined products
+* **Anhydrous ammonia**
+* **Carbon dioxide (CO₂)** transported in a liquid or supercritical state
+* **Other liquids** that are listed as hazardous materials under the Hazardous Materials Regulations (49 CFR Part 172) and are transported by pipeline in a liquid state
+
+The key distinction is that the material must be:
+
+* **A liquid** (or CO₂ in liquid/supercritical phase), and
+* **Classed as hazardous** under the DOT hazardous materials framework
+
+Liquids transported in a **gaseous state** are explicitly excluded from Part 195 and are regulated elsewhere (for example, natural gas under Part 192).
+
+So, if your pipeline transports crude oil, refined petroleum products, anhydrous ammonia, liquid CO₂, or another DOT-listed hazardous material in liquid form, it is generally considered to be transporting a **hazardous liquid** and falls within the scope of Part 195 unless a specific exemption applies.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.2, *Definitions* (definition of “hazardous liquid”), PDF p. 7
+
+49 CFR Part 195, effective as of 12-10-2025, §195.0(a), *Scope* (application of Part 195 to hazardous liquids and carbon dioxide), PDF p. 6
+"
+20,49 CFR Part 195,"Medium (Single sentence, more nuance or scope)
+",What testing is required before placing a newly constructed hazardous liquids pipeline into service?,"Before a **newly constructed hazardous liquids pipeline** can be placed into service, Part 195 requires it to be **pressure tested** to demonstrate the integrity of the pipeline and to establish the basis for safe operation. A new pipeline may not be operated until it has successfully completed this testing.
+
+For **most newly constructed hazardous liquids pipelines**, the required test is a **hydrostatic pressure test** using water or another suitable liquid. The pipeline must be tested to a pressure that is **at least 125 percent of the maximum operating pressure** for the segment being tested. The test must be held for a sufficient duration to demonstrate the integrity of the pipeline and its components.
+
+The pressure test serves multiple purposes:
+
+* It verifies the **structural integrity** of the pipe, joints, and fittings.
+* It establishes the pressure basis used to determine the **maximum operating pressure (MOP)**.
+* It provides a documented baseline for future integrity and compliance evaluations.
+
+Part 195 allows limited alternatives to a hydrostatic test in specific situations (such as certain short segments or where hydrostatic testing is impracticable), but these are exceptions and must meet the conditions specified in the regulation. In general, a newly constructed hazardous liquids pipeline should be expected to undergo a full hydrostatic test prior to startup.
+
+In addition to completing the test itself, the operator must:
+
+* Ensure the test pressure meets or exceeds the required minimum
+* Maintain test pressure for the required duration
+* Create and retain **records of the test**, including pressure levels, duration, and results, as part of the pipeline’s permanent documentation
+
+Only after the pipeline has successfully completed the required pressure testing may it be placed into hazardous liquids service.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (requirement to pressure test new hazardous liquids pipelines before operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (minimum test pressure of at least 125 percent of maximum operating pressure), PDF p. 48
+
+49 CFR Part 195, effective as of 12-10-2025, §195.305, *Testing medium* (requirements for liquid test medium), PDF p. 48
+
+49 CFR Part 195, effective as of 12-10-2025, §195.307, *Records* (test records required to be retained), PDF p. 49
+"
+21,49 CFR Part 195,"Medium (Single sentence, more nuance or scope)
+",How is MAOP established for a new hazardous liquids pipeline?,"For a **new hazardous liquids pipeline**, the **maximum operating pressure (MOP)** is established primarily through **pressure testing**, and it is directly tied to the results of that test rather than long-term operating history.
+
+Before the pipeline can be placed into service, it must be **pressure tested**, typically using a **hydrostatic test**. The regulation requires the test pressure to be **at least 125 percent of the maximum operating pressure** that the operator intends to use. Once the test is successfully completed, the MOP may not exceed **80 percent of the test pressure** (i.e., the inverse of the 1.25 test ratio).
+
+In addition to the pressure test, the MOP must also respect **design limitations**. The operating pressure may not exceed the pressure rating of any pipeline component, including pipe, valves, flanges, fittings, and other pressure-containing equipment. The lowest-rated component in the system effectively caps the allowable MOP, even if the test pressure would otherwise allow a higher value.
+
+The pipeline may not be operated until:
+
+* The pressure test has been successfully completed at or above the required level
+* The intended MOP is properly derived from the test pressure
+* Records documenting the test pressure, duration, and results are created and retained
+
+Unlike gas pipelines, Part 195 does **not** allow MAOP/MOP to be established for new pipelines based on operating history alone. For new construction, **pressure testing is the controlling mechanism** for establishing allowable operating pressure.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (new hazardous liquids pipelines must be pressure tested before operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (minimum test pressure of at least 125 percent of maximum operating pressure), PDF p. 48
+
+49 CFR Part 195, effective as of 12-10-2025, §195.307, *Records* (pressure test records used to support operating pressure), PDF p. 49
+"
+22,49 CFR Part 195,"Medium (Single sentence, more nuance or scope)
+",What corrosion control measures are required for buried steel pipelines?,"For **buried steel hazardous liquids pipelines**, Part 195 requires a combination of **protective coating**, **cathodic protection**, and **ongoing monitoring** to control external corrosion and maintain pipeline integrity.
+
+At installation, buried steel pipe must be protected against corrosion by applying an **effective external coating**. The coating must be suitable for the soil environment and applied in a manner that minimizes damage during handling and installation. Any coating damage discovered during construction must be repaired before the pipeline is buried.
+
+In addition to coating, the pipeline must be protected by a **cathodic protection (CP) system**, unless it qualifies for a very limited exception (such as electrically isolated short sections where CP is not practicable). Cathodic protection must be installed and made operational within the required timeframe after the pipeline is placed in service, and it must be capable of providing adequate corrosion protection along the entire buried length.
+
+Once the pipeline is in service, Part 195 requires **ongoing corrosion control monitoring**, including:
+
+* **Periodic cathodic protection surveys** to verify the CP system is providing adequate protection
+* **Remedial action** when CP levels do not meet the required criteria
+* **Electrical surveys** where interference or shielding is suspected
+* **Records** documenting inspections, surveys, test results, and corrective actions
+
+Internal corrosion must also be addressed where corrosive conditions are present. If the hazardous liquid being transported, or associated water or contaminants, could cause internal corrosion, the operator must take steps such as monitoring, inhibition, or cleaning to mitigate that risk.
+
+In practical terms, compliance requires:
+
+* Coating the pipe to isolate it from the environment
+* Installing and maintaining an effective cathodic protection system
+* Actively monitoring and documenting corrosion control performance
+* Addressing both **external and internal corrosion risks**
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.401(a)–(b), *General requirements for corrosion control*, PDF p. 71
+
+49 CFR Part 195, effective as of 12-10-2025, §195.402(a)–(c), *External corrosion control*, PDF pp. 71–72
+
+49 CFR Part 195, effective as of 12-10-2025, §195.404, *Cathodic protection*, PDF p. 72
+
+49 CFR Part 195, effective as of 12-10-2025, §195.416, *Internal corrosion control*, PDF p. 75
+"
+23,49 CFR Part 195,"Medium (Single sentence, more nuance or scope)
+",When does a pipeline segment become subject to integrity management requirements?,"A pipeline segment becomes subject to **integrity management (IM) requirements** when it is a **covered pipeline segment**, meaning that a release from that segment **could affect a High Consequence Area (HCA)**.
+
+Under Part 195, IM does **not** apply system-wide by default. Instead, applicability is determined **segment by segment** based on location and potential impact.
+
+In practical terms, a segment is subject to IM when:
+
+* The pipeline is regulated under Part 195 **and**
+* The operator determines, using the prescribed methodology, that a release from the segment **could reach an HCA**
+
+HCAs include populated areas, commercially navigable waterways, and environmentally sensitive areas as defined in the regulation. Operators are required to **identify HCAs and determine which pipeline segments could affect them**, using spill modeling and other evaluation methods specified by the rule.
+
+Once a segment is identified as a covered pipeline segment:
+
+* An **integrity management program** must be developed and implemented for that segment
+* The segment must undergo **baseline and periodic integrity assessments**
+* Assessment results must be evaluated, and **repairs and remediation** must be completed within required timeframes
+* Ongoing preventive and mitigative measures must be applied to reduce risk
+
+If a pipeline segment **does not** affect an HCA, it is **not subject to the IM assessment requirements**, even though it remains fully subject to all other applicable Part 195 safety and operational rules.
+
+Importantly, a segment can **enter IM scope later**. Changes such as new development, population growth, or updated spill modeling can cause a previously non-covered segment to newly affect an HCA, triggering IM requirements at that point.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (applicability of integrity management requirements), PDF pp. 86–87
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (definitions of “covered pipeline segment” and “high consequence area”), PDF p. 86
+"
+24,49 CFR Part 195,"Hard (Design-context, multi-requirement, often paragraph-length)","We’re installing a new steel hazardous liquids pipeline through a populated area—what design, testing, and MAOP limits apply before startup?","When installing a **new steel hazardous liquids pipeline through a populated area**, Part 195 imposes requirements that address **design limits, mandatory pressure testing, and how the maximum operating pressure (MOP) is established** before the pipeline can be placed into service.
+
+From a **design perspective**, the pipeline must be designed so that **no component is stressed beyond its allowable limits** at the intended operating pressure. The operating pressure may not exceed the pressure rating of the pipe, valves, flanges, fittings, or any other pressure-containing component. While Part 195 does not use location class–based design factors like Part 192, routing through a populated area increases the likelihood that the pipeline will be capable of affecting a **High Consequence Area (HCA)**, which has downstream implications for integrity management after startup.
+
+Before startup, **pressure testing is mandatory recognizing that for new construction, a hazardous liquids pipeline must be pressure tested before it can be operated. The required test is typically a **hydrostatic test** using a liquid test medium. The test pressure must be at least **125 percent of the intended maximum operating pressure**, and the test must be held long enough to demonstrate the integrity of the pipeline and its components. The pipeline may not be placed into service until it has successfully completed this test and the results are documented.
+
+The **maximum operating pressure (MOP)** is then established directly from the pressure test. For new pipelines, the MOP may not exceed **80 percent of the pressure to which the pipeline was tested**. Even if the test pressure would mathematically allow a higher MOP, the operating pressure is still limited by the **lowest-rated component** in the system.
+
+In summary, before startup of a new steel hazardous liquids pipeline in a populated area, the operator must:
+
+* Design the pipeline so all components are rated for the intended operating pressure
+* Perform a **hydrostatic pressure test** at no less than 125 percent of the intended MOP
+* Establish MOP at no more than **80 percent of the test pressure** and no higher than the weakest component rating
+* Retain pressure test records supporting the established MOP
+
+Once the pipeline is in service, its location in or near populated areas will typically bring it under **integrity management requirements** if it can affect an HCA, but those requirements apply after startup rather than as a precondition to initial operation.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (new hazardous liquids pipelines must be pressure tested before operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (minimum test pressure of at least 125 percent of maximum operating pressure), PDF p. 48
+
+49 CFR Part 195, effective as of 12-10-2025, §195.307, *Records* (pressure test records supporting operating pressure), PDF p. 49
+
+49 CFR Part 195, effective as of 12-10-2025, §195.406(a), *Maximum operating pressure* (operating pressure limited by test pressure and component ratings), PDF p. 73
+"
+25,49 CFR Part 195,"Hard (Design-context, multi-requirement, often paragraph-length)","For an existing pipeline being converted to carry a different hazardous liquid, what requirements apply to testing, operating pressure, and integrity verification?","When an **existing pipeline is converted to carry a different hazardous liquid**, Part 195 treats the change as a **material change in service**, which triggers specific requirements for **testing, operating pressure, and integrity verification** before the pipeline can be operated in the new service.
+
+First, the pipeline **may not be operated in the new hazardous liquid service until it has been tested** in accordance with the Part 195 testing requirements. If the pipeline was previously operated under a different service or product, prior testing cannot automatically be relied upon unless it is demonstrably applicable to the new operating conditions. In most cases, this means performing a **hydrostatic pressure test** sufficient to support the intended maximum operating pressure for the new service.
+
+Second, the **maximum operating pressure (MOP)** for the converted pipeline must be re-established. The new MOP may not exceed:
+
+* **80 percent of the pressure test level**, and
+* The **lowest pressure rating of any pipeline component**, including pipe, valves, fittings, and appurtenances.
+
+If the new hazardous liquid has different properties (such as higher vapor pressure, different density, or increased corrosivity), those characteristics must be considered when determining a safe operating pressure and confirming component suitability.
+
+Third, the operator must perform **integrity verification** appropriate for the converted service. This includes confirming that the pipeline’s materials, construction, corrosion protection, and mechanical integrity are suitable for the new product. If the pipeline segment could affect a **High Consequence Area (HCA)**, it must also be incorporated into the operator’s **integrity management program**, which may require baseline integrity assessments using approved methods such as in-line inspection, pressure testing, or direct assessment.
+
+In practice, converting a pipeline to a different hazardous liquid requires the operator to:
+
+* **Pressure test** the pipeline to support the new service
+* **Re-establish MOP** based on test results and component ratings
+* Verify the pipeline’s **integrity and compatibility** with the new product
+* Apply **integrity management requirements** where the pipeline can affect HCAs
+
+Only after these steps are completed and documented may the pipeline be placed into operation carrying the new hazardous liquid.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.5(a), *Conversion to service subject to this part* (pipelines converted to hazardous liquid service must comply with Part 195), PDF p. 16
+
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (pressure testing required before operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (minimum test pressure and relationship to operating pressure), PDF p. 48
+
+49 CFR Part 195, effective as of 12-10-2025, §195.406(a), *Maximum operating pressure* (operating pressure limits based on test pressure and component ratings), PDF p. 73
+
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (integrity verification and assessment requirements for covered segments), PDF pp. 86–87
+"
+26,49 CFR Part 195,"Hard (Design-context, multi-requirement, often paragraph-length)","How do integrity assessments, repair timelines, and remediation requirements differ for pipelines located in high consequence areas?","For hazardous liquids pipelines located in **high consequence areas (HCAs)**, Part 195 imposes **additional and more stringent requirements** for **integrity assessments, repair timelines, and remediation** compared to pipeline segments outside HCAs. These requirements are intended to reduce the likelihood and consequences of releases in areas where impacts to people, property, or the environment would be greatest.
+
+Once a pipeline segment is identified as a **covered pipeline segment**—meaning a release could affect an HCA—the operator must include that segment in a formal **Integrity Management (IM) program**. This fundamentally changes how integrity is evaluated and managed.
+
+**Integrity assessments:**
+Covered segments must undergo **baseline integrity assessments** using one or more approved methods, such as in-line inspection (ILI), pressure testing, or direct assessment. After the baseline assessment, the operator must perform **periodic reassessments** at intervals specified in the regulation, with the frequency driven by risk, pipeline characteristics, and prior assessment results. These assessment obligations apply specifically because the segment affects an HCA; non-HCA segments are not subject to these IM assessment requirements.
+
+**Repair timelines:**
+Part 195 establishes **mandatory repair conditions and deadlines** for defects identified during integrity assessments of covered segments. Certain conditions—such as those presenting an immediate threat to the pipeline—must be repaired **immediately or within very short timeframes**. Other conditions have prescribed maximum timeframes (for example, repairs required within months) based on the severity and nature of the defect. These timelines are not discretionary; they are explicitly tied to the defect classification defined in the IM rules.
+
+**Remediation and preventive measures:**
+In addition to repairing identified defects, operators must evaluate the **root causes** of integrity issues in HCAs and take **preventive and mitigative measures** to reduce future risk. This can include enhanced corrosion control, operational changes, additional inspections, pressure restrictions, or other actions identified through the IM risk analysis. Operators must also remediate issues that could lead to future integrity threats, not just those that require immediate repair.
+
+Outside HCAs, pipelines remain subject to general Part 195 requirements for operation, maintenance, and safety, but they are **not subject to the IM assessment, repair-deadline, and remediation framework** unless and until they become covered segments.
+
+In practical terms, being located in or affecting an HCA means:
+
+* Integrity assessments are **mandatory and recurring**
+* Repair timelines are **strict and codified**
+* Operators must go beyond fixing defects and actively **reduce future risk**
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a)–(j), *Pipeline integrity management in high consequence areas* (assessment requirements, reassessment intervals, and integrity management elements), PDF pp. 86–90
+
+49 CFR Part 195, effective as of 12-10-2025, §195.452(h), *Pipeline integrity management in high consequence areas* (mandatory repair conditions and timelines), PDF pp. 88–89
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (definitions of “high consequence area” and “covered pipeline segment”), PDF p. 86
+"
+27,49 CFR Part 195,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","If a pipeline segment was previously operated at a lower pressure, can we increase MAOP without hydrostatic testing?","In general, **no — you cannot increase MAOP for a hazardous liquids pipeline segment without hydrostatic testing**, unless a very limited exception applies and the existing records fully support the higher pressure.
+
+Under Part 195, the **maximum operating pressure (MOP)** for a pipeline is fundamentally tied to its **pressure test history**. For most pipelines, MAOP may not exceed **80 percent of the pressure to which the pipeline was tested**. If a segment was previously operated at a lower pressure and you want to increase MAOP above that level, you typically must **retest the pipeline at a higher pressure** sufficient to support the proposed MAOP.
+
+There is a narrow allowance to rely on **existing pressure test records**, but only if those records clearly demonstrate that:
+
+* The pipeline was previously tested to a pressure high enough to support the **new MAOP**, and
+* The test meets the requirements of Part 195 (including test medium, duration, and documentation)
+
+If the pipeline has **never been tested** to a pressure adequate to justify the increased MAOP, or if test records are incomplete, unclear, or unavailable, **hydrostatic testing is required** before the MAOP can be increased.
+
+Additionally, increasing MAOP is not just a testing question. The operator must also verify that:
+
+* All pipeline components are **rated for the higher pressure**
+* The pipeline’s condition supports the increased stress level
+* Any applicable **integrity management requirements** are addressed, particularly if the segment affects a High Consequence Area
+
+In practice, increasing MAOP without hydrostatic testing is only possible when robust, compliant test records already exist that support the higher pressure. Otherwise, **a new hydrostatic test is required before the pressure increase**.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.406(a), *Maximum operating pressure* (MOP limited by pressure test and component ratings), PDF p. 73
+
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (pressure testing required to support operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.310(a), *Records* (requirement to maintain pressure test records supporting operating pressure), PDF p. 50
+"
+28,49 CFR Part 195,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)",Can computational pipeline monitoring be used as the sole means of leak detection?,"**Yes — computational pipeline monitoring (CPM) *can* be used as the sole means of leak detection**, but only **if it fully meets the performance-based requirements in Part 195**. CPM is allowed, but it is **not automatically acceptable by default**, and it must be properly designed, validated, and maintained.
+
+Under Part 195, operators are required to have a **leak detection system capable of detecting leaks in a timely manner** for hazardous liquids pipelines transporting product in single phase. The regulation does **not prescribe a specific technology**, and CPM is explicitly recognized as an acceptable approach when it complies with the rule.
+
+If CPM is used as the sole leak detection method, it must:
+
+* Be designed, implemented, and operated to **detect leaks that could reasonably be expected to occur**
+* Provide **timely detection and alarm generation**
+* Be supported by **procedures for alarm evaluation and response**
+* Be **validated and periodically evaluated** to confirm it is performing as intended
+* Be capable of detecting leaks under the pipeline’s **normal operating conditions**, including flow changes and transients
+
+For CPM systems specifically, Part 195 requires they be designed in accordance with **API Recommended Practice 1130**, which is incorporated by reference. This means the system must meet recognized industry standards for sensitivity, reliability, alarm management, and operator response.
+
+However, CPM **may not be appropriate in all situations**. Certain pipelines (such as those with highly variable flow, batch operations with limited instrumentation, or operational characteristics that defeat CPM effectiveness) may require **supplemental or alternative leak detection methods** to meet the rule’s performance expectations. The regulation places the burden on the operator to demonstrate that the selected system—CPM alone or in combination—meets the leak detection requirements.
+
+So in practice:
+
+* **CPM alone is allowed** if it fully meets Part 195’s performance requirements
+* **CPM is not “automatically sufficient”** just because it is installed
+* Operators must be able to **justify, document, and demonstrate** that CPM provides adequate leak detection for the specific pipeline
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.134(b)–(c), *Leak detection* (general leak detection requirements and use of CPM), PDF p. 41
+
+49 CFR Part 195, effective as of 12-10-2025, §195.444, *Leak detection* (performance requirements for hazardous liquids pipeline leak detection systems), PDF pp. 83–85
+"
+29,49 CFR Part 195,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","If a pipeline crosses an HCA for only a short distance, do the full integrity management requirements still apply?","Yes — **the full integrity management (IM) requirements still apply**, even if a pipeline **crosses a High Consequence Area (HCA) for only a short distance**. The determining factor is **whether a release from the pipeline segment could affect an HCA**, not how long the pipeline is within or near the HCA.
+
+Under Part 195, IM applicability is based on identifying **covered pipeline segments**. A covered segment is any portion of a pipeline for which a release could reasonably be expected to **impact an HCA**, as determined using the required spill modeling and evaluation methods. There is **no minimum length threshold** in the regulation. Even a short crossing can qualify if a release could migrate into the HCA due to terrain, drainage, hydraulics, or product characteristics.
+
+Once a segment is identified as a covered pipeline segment:
+
+* The operator must include that segment in its **Integrity Management program**
+* The segment must undergo **baseline integrity assessment**
+* **Periodic reassessments** must be performed at the required intervals
+* **Repair conditions, timelines, and remediation requirements** apply in full for that segment
+
+Importantly, the IM requirements apply **only to the covered segment**, not necessarily to the entire pipeline. However, the operator must clearly define the segment boundaries based on the spill impact analysis, and those boundaries often extend **beyond the physical limits of the HCA itself**.
+
+So in practice:
+
+* **Short HCA crossing** ≠ reduced IM obligations
+* **Ability to affect an HCA** = full IM requirements for that segment
+* IM scope is **risk- and impact-based**, not distance-based
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (IM requirements apply to covered pipeline segments), PDF pp. 86–87
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (definitions of “covered pipeline segment” and “high consequence area”), PDF p. 86
+"
+30,49 CFR Part 195,"Clarification / Edge-Case Questions
+(“Can I do this?” / borderline compliance)","If we replace a short section of pipe, does that trigger integrity reassessment or re-establishment of MAOP?","Replacing a **short section of pipe** does **not automatically trigger a full integrity reassessment or re-establishment of MAOP**, but **it can**, depending on **why the replacement was made, how it affects operating pressure, and whether the segment is subject to integrity management**.
+
+**MAOP / MOP re-establishment**
+A short replacement by itself does **not** require MAOP (MOP) to be re-established, as long as:
+
+* The pipeline **continues to operate at or below its existing MOP**, and
+* The replacement pipe and all associated components are **rated for at least that MOP**.
+
+However, if the replacement is associated with:
+
+* An **increase in operating pressure**, or
+* A situation where the existing pressure test **does not support the continued MOP** (for example, missing or inadequate test records),
+
+then the operator must **retest** the affected segment and **re-establish MOP** in accordance with the pressure testing rules before operating at the higher pressure.
+
+**Integrity management (IM) implications**
+For pipeline segments that **could affect a High Consequence Area (HCA)**, a short replacement does **not automatically reset the IM baseline**. That said, the operator must evaluate whether the replacement:
+
+* Was made to address an **integrity threat** (e.g., corrosion, cracking, mechanical damage), or
+* Introduces a **new integrity threat** or changes risk characteristics.
+
+If so, the replacement must be:
+
+* Incorporated into the **integrity management program**, and
+* Considered when determining whether additional **assessment, remediation, or preventive measures** are needed for that covered segment.
+
+In some cases—such as replacing pipe due to a condition that meets IM repair criteria—the repair itself satisfies the immediate requirement, but it does **not eliminate the obligation** to continue periodic assessments on the covered segment.
+
+**Testing requirements for the replacement**
+Regardless of IM or MAOP impacts, the **new pipe section itself must be tested** in accordance with Part 195 before being placed into service, and all potentially hazardous leaks must be eliminated.
+
+**Practical takeaway**
+
+* **Short replacement alone** → does *not* automatically trigger MAOP re-establishment or full IM reassessment
+* **Pressure increase or unsupported MOP** → retesting and MAOP re-establishment required
+* **HCA-covered segment** → replacement must be evaluated within the IM program
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (testing required before operation or return to service), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.406(a), *Maximum operating pressure* (MOP limited by pressure test and component ratings), PDF p. 73
+
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (IM applicability to covered pipeline segments), PDF pp. 86–87
+
+49 CFR Part 195, effective as of 12-10-2025, §195.452(h), *Pipeline integrity management in high consequence areas* (repair conditions and evaluation of integrity threats), PDF pp. 88–89
+"
+31,BOTH 49 CFR Part 192 / 49 CFR Part 195,A) Applicability / “Which code applies?,A pipeline transports liquid CO₂—should it be treated under gas rules or hazardous liquids rules?,"A pipeline that transports **liquid CO₂** is regulated under **49 CFR Part 195**, not Part 192.
+
+Part 195 explicitly applies to pipeline facilities used in the transportation of **hazardous liquids and carbon dioxide**. Carbon dioxide is included in Part 195 **regardless of whether it is transported as a liquid or in a supercritical state**, and it is not treated as “gas” for purposes of Part 192.
+
+Part 192 governs pipelines transporting **natural gas and other flammable gases**, but it does **not** apply to CO₂ pipelines. Even though CO₂ may behave like a gas under certain conditions, its regulatory treatment is determined by **the commodity itself**, not its thermodynamic behavior in the pipeline.
+
+So for a pipeline transporting liquid CO₂:
+
+* **Part 195 governs design, testing, operating pressure, leak detection, and integrity management**
+* **Part 192 does not apply**, even if the CO₂ is in a dense-phase or supercritical condition
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.0(a), *Scope* (application of Part 195 to transportation of hazardous liquids and carbon dioxide), PDF p. 6
+
+49 CFR Part 195, effective as of 12-10-2025, §195.2, *Definitions* (definition and inclusion of carbon dioxide under Part 195), PDF p. 7
+"
+32,BOTH 49 CFR Part 192 / 49 CFR Part 195,A) Applicability / “Which code applies?,We’re moving a product that is liquid in the pipe but flashes to gas downstream—what code governs this segment?,"What governs this segment depends on **the state of the product while it is being transported in the pipeline**, not what happens **after** it leaves the pipeline.
+
+If the product is **transported in the pipeline as a liquid**, and that liquid is classified as a hazardous material, the segment is regulated under **49 CFR Part 195**, even if the product later **flashes to gas downstream** (for example, at a terminal, pressure letdown, or process facility).
+
+Part 195 applies to pipelines transporting **hazardous liquids**, which includes petroleum, petroleum products, anhydrous ammonia, carbon dioxide, and other hazardous materials **when transported in liquid form**. The regulation does not switch applicability based on downstream phase change; the determining factor is the **phase and classification of the product in the pipeline segment itself**.
+
+Part 192, by contrast, applies to pipelines transporting **gas** (such as natural gas) in a gaseous state. It does not apply to pipelines transporting hazardous materials in liquid form, even if those materials later vaporize outside the pipeline.
+
+So for this scenario:
+
+* **Liquid in the pipeline** → governed by **Part 195**
+* **Phase change after the pipeline** → does **not** change which code applies to the pipeline segment
+
+If a downstream facility vaporizes the product and then transports it further **as a gas in a pipeline**, that downstream pipeline segment could fall under **Part 192**, but the liquid pipeline segment upstream remains regulated under Part 195.
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.0(a), *Scope* (application of Part 195 to transportation of hazardous liquids), PDF p. 6
+
+49 CFR Part 195, effective as of 12-10-2025, §195.2, *Definitions* (hazardous liquid defined by being transported in liquid form), PDF p. 7
+
+49 CFR Part 192, effective as of 12-10-2025, §192.1(a), *Scope* (application of Part 192 to transportation of gas), PDF p. 1
+"
+33,BOTH 49 CFR Part 192 / 49 CFR Part 195,A) Applicability / “Which code applies?,Does being an intrastate pipeline change whether these federal requirements apply?,"Being an **intrastate pipeline does not automatically remove federal requirements**, but it **can change who enforces them and which portions apply**, depending on the circumstances.
+
+Under **both Part 192 and Part 195**, the regulations apply to pipelines involved in **interstate or intrastate transportation**, but Congress allows states to **assume regulatory authority** over intrastate pipelines if they have a certified or agreement program approved by PHMSA.
+
+Here’s how it works in practice:
+
+* **Interstate pipelines**
+  These are regulated **directly by PHMSA** under Part 192 (gas) or Part 195 (hazardous liquids). States do not enforce safety regulations on interstate pipelines, though they may participate in inspections under agreement programs.
+
+* **Intrastate pipelines**
+  These pipelines are still subject to **the same federal safety standards** in Part 192 or Part 195, **unless a specific exemption applies**. However, if a state has a PHMSA-approved program, the **state agency enforces the federal requirements** instead of PHMSA.
+  If a state does not have an approved program for a particular pipeline type, PHMSA retains enforcement authority.
+
+Importantly, **intrastate status does not change the substance of the requirements**. Design, testing, corrosion control, leak detection, integrity management, and operating rules remain the same. The key difference is **who enforces them**, not whether they apply.
+
+There are limited cases where intrastate pipelines—such as certain rural gathering lines or low-stress hazardous liquids pipelines—are subject to **reduced or reporting-only requirements**, but those exceptions are based on **pipeline type and function**, not simply intrastate location.
+
+**Bottom line:**
+
+* **Intrastate ≠ exempt**
+* Federal safety rules in Part 192 or Part 195 still apply
+* Enforcement may shift from PHMSA to a state authority
+* Any reduced requirements must come from an explicit regulatory exception
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.1(a)–(b), *Scope* (application of Part 192 to interstate and intrastate gas pipelines and state enforcement), PDF p. 1
+
+49 CFR Part 195, effective as of 12-10-2025, §195.0(b), *Scope* (application of Part 195 to interstate and intrastate hazardous liquids pipelines and state authority), PDF p. 6
+"
+34,BOTH 49 CFR Part 192 / 49 CFR Part 195,A) Applicability / “Which code applies?,Where does the pipeline end and facility piping begin for regulatory purposes?,"Where the **pipeline ends and facility piping begins** is determined by **function and location**, not just by ownership or physical appearance, and the boundary is addressed slightly differently in **Part 192** and **Part 195**. In both cases, the regulations draw a line between **transportation pipeline facilities** (regulated) and **plant or process piping** (generally not regulated under these Parts).
+
+For **gas pipelines (Part 192)**, the regulations apply to pipeline facilities used in the **transportation of gas**, but they do **not** apply to piping within plants such as production, processing, manufacturing, or refining facilities. In practical terms, Part 192 jurisdiction typically ends at the point where gas enters **plant piping that is integral to processing or manufacturing operations**, rather than transportation. Metering, pressure regulation, and piping used solely for plant operations are generally considered outside the scope of Part 192 once the gas is no longer being transported for distribution or transmission.
+
+For **hazardous liquids pipelines (Part 195)**, the boundary is similar. Part 195 applies to pipeline facilities used in the **transportation of hazardous liquids or CO₂**, but it does **not** apply to piping located entirely within a facility such as a refinery, manufacturing plant, or processing facility. Once the hazardous liquid enters piping that is part of the **facility’s internal process operations**, that piping is treated as facility piping rather than pipeline transportation infrastructure.
+
+In both codes, the key questions are:
+
+* Is the piping being used to **transport product between locations** (pipeline)?
+* Or is it part of a **process or plant operation** (facility piping)?
+
+Meter stations, pump stations, breakout tanks, and associated piping that support transportation generally remain **within pipeline jurisdiction**, while downstream process piping inside a plant boundary does not.
+
+Because the boundary can be fact-specific, operators often document the **jurisdictional determination** and, in ambiguous cases, confirm it with PHMSA or the appropriate state authority.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.1(b), *Scope* (exclusion of plant piping and facilities from Part 192), PDF p. 1
+
+49 CFR Part 195, effective as of 12-10-2025, §195.1(b), *Excepted pipelines* (exclusion of piping within refining, manufacturing, or processing facilities), PDF p. 6
+"
+35,BOTH 49 CFR Part 192 / 49 CFR Part 195,"B) One-code answer expected (user selected both, but only one really applies)","“Do residential service lines need excess flow valves?”
+→ Primarily Part 192","Yes — **in most cases, residential service lines do need excess flow valves (EFVs)**.
+
+Under the gas pipeline safety requirements, an EFV must be installed on **new or replaced service lines** that serve a **single-family residence** before the line is placed into service. This requirement also applies to certain **branched service line configurations** serving a single-family residence, including:
+
+* A branch installed at the same time as the original service line, or
+* A branch added later when the original service line did not have an EFV.
+
+There are **specific exceptions** where an EFV is not required. An operator is not required to install an EFV if:
+
+* The service line does **not operate at 10 psig or greater throughout the year**,
+* The operator has prior experience with **contaminants** that could cause the EFV to malfunction,
+* An EFV would **interfere with necessary operation or maintenance activities** (such as blowing liquids), or
+* A compliant EFV is **not commercially available** for the service line.
+
+In practice, this means that for a typical new or replaced residential gas service operating at or above 10 psig year-round, an EFV is expected unless one of the listed exceptions applies and is documented.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.383(b)(1)–(3), *Excess flow valve installation—Installation required*, PDF pp. 92–93
+
+49 CFR Part 192, effective as of 12-10-2025, §192.383(c)(1)–(4), *Exceptions to excess flow valve installation requirement*, PDF p. 93"
+36,BOTH 49 CFR Part 192 / 49 CFR Part 196,"B) One-code answer expected (user selected both, but only one really applies)","“Are integrity assessments required for all pipelines?”
+→ Part 195 (HCA-based IM); Part 192 differs","No — **integrity assessments are not required for all pipelines**. Whether they are required depends on **the type of pipeline and where it is located**.
+
+For **hazardous liquids pipelines**, integrity assessments are required **only for pipeline segments that could affect a High Consequence Area (HCA)**. These segments are referred to as **covered pipeline segments**. If a release from a segment could impact a populated area, a commercially navigable waterway, or a sensitive environmental area, that segment must be included in an **Integrity Management (IM) program**, which includes baseline and periodic integrity assessments. Pipeline segments that do **not** affect an HCA are not subject to the IM assessment requirements, even though they remain subject to other Part 195 safety rules.
+
+For **gas pipelines**, integrity assessment requirements apply more selectively. Certain gas pipelines—primarily **gas transmission pipelines** and some **regulated gas gathering lines**—are subject to integrity management rules when they are located in or could affect designated areas. By contrast, **gas distribution pipelines are not subject to integrity assessment programs** under Part 192, even though they must comply with extensive design, operation, maintenance, and leak management requirements.
+
+So in practice:
+
+* **Not all pipelines require integrity assessments**
+* Integrity assessments apply only where **explicitly required by regulation**, based on pipeline type and location
+* Many pipelines are regulated for safety without being subject to formal integrity assessment programs
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a), *Pipeline integrity management in high consequence areas* (integrity assessments required for covered hazardous liquids pipeline segments), PDF pp. 86–87
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (definitions of “covered pipeline segment” and “high consequence area”), PDF p. 86
+
+49 CFR Part 192, effective as of 12-10-2025, §192.1005(a), *What are the requirements for an integrity management program?* (applicability of integrity management to gas transmission pipelines), PDF p. 164
+"
+37,BOTH 49 CFR Part 192 / 49 CFR Part 197,"B) One-code answer expected (user selected both, but only one really applies)","“Is hydrostatic testing required before placing a new pipeline into service?”
+→ Primarily Part 195; Part 192 depends on pipeline type","**It depends on the type of pipeline and which rules apply to that pipeline.** The requirement to perform **hydrostatic testing before placing a new pipeline into service is explicit for hazardous liquids pipelines**, but **more conditional for gas pipelines**.
+
+For **hazardous liquids pipelines**, a new pipeline **must be pressure tested before it can be placed into service**. The required test is typically a **hydrostatic test** using a liquid test medium, and the test pressure must be **at least 125 percent of the intended maximum operating pressure**. This testing is mandatory for new construction and is the primary basis for establishing the pipeline’s maximum operating pressure. A hazardous liquids pipeline may not be operated until this test has been successfully completed and documented.
+
+For **gas pipelines**, the answer depends on whether the pipeline is a **distribution or transmission line** and how it will operate. Gas pipelines are required to be **tested before being placed into service**, but the regulations allow different types of tests depending on operating pressure and pipeline classification. Some gas distribution pipelines may be placed into service after a **leak test**, rather than a full hydrostatic strength test, while gas transmission pipelines and higher-pressure lines generally require **strength testing** consistent with Subpart J.
+
+So in practical terms:
+
+* **New hazardous liquids pipeline** → hydrostatic pressure test **required before startup**
+* **New gas pipeline** → testing **always required**, but **hydrostatic testing is not always required**; acceptable test type depends on pressure and pipeline classification
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines* (new hazardous liquids pipelines must be pressure tested before operation), PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (minimum hydrostatic test pressure requirements), PDF p. 48
+
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1), *General requirements* (pipelines must be tested before being placed into service), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.509, *Test requirements for pipelines to operate below 100 psig* (allowance for leak testing in certain gas distribution applications), PDF p. 109
+"
+38,BOTH 49 CFR Part 192 / 49 CFR Part 198,"B) One-code answer expected (user selected both, but only one really applies)","“What corrosion control measures are required for buried steel pipelines?”
+→ Both exist, but answer differs materially between 192 and 195","Buried steel pipelines must be protected against corrosion through a combination of **external coatings, cathodic protection, and ongoing monitoring**, but the specific requirements and structure differ somewhat between **gas pipelines** and **hazardous liquids pipelines**.
+
+For **buried steel gas pipelines**, corrosion control begins with applying an **effective external protective coating** to the pipe. The coating must be suitable for the environment and repaired if damaged during installation. In addition, buried steel gas pipelines must be protected by a **cathodic protection (CP) system**, unless the pipeline qualifies for a limited exception. Cathodic protection must be installed and operational within the required timeframe after the pipeline is placed into service, and operators must periodically test the CP system to confirm it is providing adequate protection. When CP criteria are not met, remedial action is required. Operators must also address **internal corrosion** where conditions indicate it could occur.
+
+For **buried steel hazardous liquids pipelines**, the framework is similar but more explicitly prescriptive. The pipe must be protected with an **external coating** designed to mitigate corrosion, and a **cathodic protection system** must be installed and maintained to protect the pipeline for its entire service life. Operators are required to conduct **periodic CP surveys**, investigate areas where corrosion protection may be inadequate, and correct deficiencies. As with gas pipelines, internal corrosion must be mitigated where corrosive conditions exist, such as through monitoring, inhibition, or cleaning programs.
+
+Across both pipeline types, corrosion control is not a one-time design obligation—it is an **ongoing operational requirement**. Records of inspections, surveys, test results, and corrective actions must be maintained to demonstrate continued compliance.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.455(a)–(d), *External corrosion control: Buried or submerged pipelines*, PDF pp. 120–121
+
+49 CFR Part 192, effective as of 12-10-2025, §192.463(a)–(b), *External corrosion control: Monitoring*, PDF p. 123
+
+49 CFR Part 192, effective as of 12-10-2025, §192.475(a), *Internal corrosion control*, PDF p. 127
+
+49 CFR Part 195, effective as of 12-10-2025, §195.401(a)–(b), *General requirements for corrosion control*, PDF p. 71
+
+49 CFR Part 195, effective as of 12-10-2025, §195.402(a)–(c), *External corrosion control*, PDF pp. 71–72
+
+49 CFR Part 195, effective as of 12-10-2025, §195.404, *Cathodic protection*, PDF p. 72
+
+49 CFR Part 195, effective as of 12-10-2025, §195.416, *Internal corrosion control*, PDF p. 75
+"
+39,BOTH 49 CFR Part 192 / 49 CFR Part 199,C) Comparison / research questions (192 vs 195),How do pressure testing requirements differ between gas pipelines and hazardous liquids pipelines?,"Pressure testing is required for **both gas pipelines and hazardous liquids pipelines**, but the **purpose, test type, and flexibility differ significantly** between Part 192 and Part 195.
+
+---
+
+### Hazardous liquids pipelines (Part 195)
+
+For hazardous liquids pipelines, **pressure testing is mandatory and foundational**, especially for new construction and MAOP establishment.
+
+A hazardous liquids pipeline **must be pressure tested before being placed into service**, and the required test is typically a **hydrostatic test** using a liquid test medium. The test pressure must be **at least 125% of the intended maximum operating pressure (MOP)**. The results of this test are then used directly to establish MOP, which may not exceed **80% of the test pressure**.
+
+Part 195 allows **very limited alternatives** to hydrostatic testing, but these are exceptions and must meet specific regulatory conditions. In practice, operators should expect that **hydrostatic testing is the default and expected method** for hazardous liquids pipelines.
+
+---
+
+### Gas pipelines (Part 192)
+
+For gas pipelines, testing is also required before a pipeline is placed into service, but **the type of test depends on the pipeline classification and operating pressure**.
+
+Gas pipelines may be subject to:
+
+* **Strength testing** (often hydrostatic or pneumatic), or
+* **Leak testing**, depending on whether the pipeline is transmission or distribution and the pressure at which it will operate.
+
+Many **gas distribution pipelines**, particularly those operating at **lower pressures**, are permitted to be placed into service after a **leak test**, rather than a full hydrostatic strength test. By contrast, **gas transmission pipelines and higher-pressure gas lines** are generally required to undergo **strength testing** to substantiate MAOP.
+
+Unlike Part 195, Part 192 provides **greater flexibility** in acceptable test methods, reflecting the wide range of gas pipeline types and operating pressures.
+
+---
+
+### Key differences in practice
+
+* **Hazardous liquids pipelines** → hydrostatic pressure testing is the norm and is directly tied to MOP
+* **Gas pipelines** → testing is always required, but hydrostatic testing is **not always required**
+* **Part 195** is more rigid and test-driven
+* **Part 192** is more conditional and classification-driven
+
+---
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.302(a), *Testing of pipelines*, PDF p. 47
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure*, PDF p. 48
+
+49 CFR Part 192, effective as of 12-10-2025, §192.503(a)(1), *General requirements* (testing required before placing a pipeline into service), PDF p. 106
+
+49 CFR Part 192, effective as of 12-10-2025, §192.509, *Test requirements for pipelines to operate below 100 psig*, PDF p. 109
+"
+40,BOTH 49 CFR Part 192 / 49 CFR Part 200,C) Comparison / research questions (192 vs 195),How is MAOP/MOP established differently under Part 192 versus Part 195?,"MAOP/MOP is established **very differently** under Part 192 (gas pipelines) versus Part 195 (hazardous liquids pipelines), reflecting fundamentally different regulatory approaches to risk, operating history, and testing.
+
+---
+
+### Hazardous liquids pipelines (Part 195)
+
+Under Part 195, **pressure testing is the primary and controlling basis** for establishing the maximum operating pressure (MOP).
+
+For a hazardous liquids pipeline:
+
+* The pipeline **must be pressure tested** before operation.
+* The **test pressure must be at least 125% of the intended MOP**.
+* The MOP **may not exceed 80% of the pressure test level**.
+* The MOP is also limited by the **lowest-rated component** in the system.
+
+Operating history alone is **not sufficient** to establish MOP for new pipelines, and pressure test records are essential. If adequate test records do not exist, the pipeline cannot be operated above a pressure justified by a compliant test.
+
+In short, Part 195 is **test-driven**:
+
+> *No test → no MOP.*
+
+---
+
+### Gas pipelines (Part 192)
+
+Part 192 allows **multiple methods** to establish MAOP, depending on pipeline type, construction date, materials, and available records.
+
+For gas pipelines, MAOP may be established based on:
+
+* **Pressure test results**, or
+* **Historical operating pressure** (for certain older pipelines), or
+* **Design calculations** using pipe properties, location class, and design factor, or
+* A combination of the above, depending on the circumstances
+
+Gas **distribution pipelines**, in particular, often operate without a formally calculated MAOP and instead rely on pressure regulation and overpressure protection requirements. Gas **transmission pipelines** are more likely to have a defined MAOP established through testing or historical operation.
+
+Part 192 also allows continued operation at MAOP based on **long-term operating history**, even where pressure test records are incomplete, provided specific regulatory criteria are met.
+
+In short, Part 192 is **flexible and context-dependent**, especially for older infrastructure.
+
+---
+
+### Practical comparison
+
+* **Part 195 (hazardous liquids)**
+
+  * MOP is tightly linked to pressure testing
+  * Limited flexibility
+  * Emphasis on documented test records
+
+* **Part 192 (gas)**
+
+  * MAOP can be established through multiple pathways
+  * Allows reliance on historical operation in some cases
+  * Distinguishes sharply between transmission and distribution systems
+
+---
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.406(a), *Maximum operating pressure* (MOP limited by pressure test and component ratings), PDF p. 73
+
+49 CFR Part 195, effective as of 12-10-2025, §195.304(a), *Test pressure* (relationship between test pressure and operating pressure), PDF p. 48
+
+49 CFR Part 192, effective as of 12-10-2025, §192.619(a), *Maximum allowable operating pressure: Steel or plastic pipelines*, PDF p. 136
+
+49 CFR Part 192, effective as of 12-10-2025, §192.619(c), *Maximum allowable operating pressure: Establishment by operating history*, PDF p. 137
+"
+41,BOTH 49 CFR Part 192 / 49 CFR Part 201,C) Comparison / research questions (192 vs 195),What are the key differences in integrity management requirements for gas pipelines versus hazardous liquids pipelines?,"The integrity management (IM) requirements for **gas pipelines** and **hazardous liquids pipelines** differ in **who is covered, what triggers applicability, and how assessments and repairs are structured**. While both aim to reduce risk in sensitive areas, the frameworks are not the same.
+
+---
+
+### Hazardous liquids pipelines (Part 195)
+
+For hazardous liquids pipelines, integrity management is **segment-based and impact-driven**.
+
+IM requirements apply to **covered pipeline segments**—those where a release **could affect a High Consequence Area (HCA)**. HCAs include populated areas, commercially navigable waterways, and environmentally sensitive locations. Once a segment is determined to be covered, the operator must implement a comprehensive IM program for that segment.
+
+Key characteristics of Part 195 IM include:
+
+* **Mandatory baseline integrity assessments** using approved methods (in-line inspection, pressure testing, or direct assessment)
+* **Periodic reassessments** at prescribed intervals
+* **Codified repair conditions and timelines**, with explicit deadlines tied to defect severity
+* Required **preventive and mitigative measures** based on risk analysis
+* Continuous reevaluation as population, land use, or spill modeling changes
+
+IM under Part 195 is **strictly defined and prescriptive**, with little flexibility once a segment is covered.
+
+---
+
+### Gas pipelines (Part 192)
+
+For gas pipelines, integrity management is **pipeline-type specific**, and not all gas pipelines are subject to IM requirements.
+
+* **Gas transmission pipelines** are subject to integrity management when they are located in or could affect **High Consequence Areas**, which are defined differently than in Part 195 (primarily population-based).
+* **Gas distribution pipelines** are **not subject to integrity assessment programs** under Part 192. Instead, they rely on other safety frameworks such as leak management, damage prevention, and operating pressure control.
+* Certain **regulated gas gathering lines** may also be subject to IM requirements under defined conditions.
+
+Part 192 IM requirements emphasize:
+
+* Ongoing **risk analysis and data integration**
+* Periodic integrity assessments for covered transmission segments
+* Less prescriptive repair timelines compared to Part 195, relying more on engineering judgment within regulatory bounds
+
+Overall, Part 192 allows **more flexibility** in how operators evaluate and manage integrity, particularly outside transmission HCAs.
+
+---
+
+### Key practical differences
+
+* **Who is covered**
+
+  * Part 195: hazardous liquids segments that could affect an HCA
+  * Part 192: primarily gas transmission segments in HCAs
+
+* **Assessment requirements**
+
+  * Part 195: mandatory baseline + periodic reassessments
+  * Part 192: required for covered transmission segments; not applicable to distribution
+
+* **Repair timelines**
+
+  * Part 195: explicitly defined and time-bound
+  * Part 192: less rigid, more performance-based
+
+* **Scope**
+
+  * Part 195 IM is narrower in geography but deeper in prescription
+  * Part 192 IM is broader in pipeline population but more flexible in execution
+
+---
+
+**Citations:**
+49 CFR Part 195, effective as of 12-10-2025, §195.452(a)–(j), *Pipeline integrity management in high consequence areas*, PDF pp. 86–90
+
+49 CFR Part 195, effective as of 12-10-2025, §195.450, *Definitions* (covered pipeline segment; high consequence area), PDF p. 86
+
+49 CFR Part 192, effective as of 12-10-2025, §192.1005(a), *What are the requirements for an integrity management program?* (applicability to gas transmission pipelines), PDF p. 164
+
+49 CFR Part 192, effective as of 12-10-2025, §192.1007(a), *What are the elements of an integrity management program?*, PDF p. 165
+"
+42,BOTH 49 CFR Part 192 / 49 CFR Part 202,C) Comparison / research questions (192 vs 195),How do leak detection expectations differ between gas distribution systems and hazardous liquids pipelines?,"Leak detection expectations differ substantially between **gas distribution systems** and **hazardous liquids pipelines**, reflecting differences in **risk profile, operating characteristics, and regulatory approach**.
+
+---
+
+### Gas distribution systems (Part 192)
+
+For gas distribution systems, leak detection is **field-driven and ongoing**, rather than technology-mandated. The regulations focus on **finding, classifying, and responding to leaks** through routine operations.
+
+Key elements include:
+
+* **Periodic leakage surveys** of mains and services at required intervals
+* **Leak classification** (hazardous vs. non-hazardous) based on defined criteria
+* **Timely repair** of hazardous leaks, with repair priority driven by safety risk
+* Continuous monitoring through patrols, odor reports, and operating experience
+
+Part 192 does **not require automated or computational leak detection systems** for gas distribution pipelines. Instead, it relies on frequent physical surveys and prompt response to indications of leakage. This approach recognizes the dispersed, low-pressure, and highly branched nature of distribution systems.
+
+---
+
+### Hazardous liquids pipelines (Part 195)
+
+For hazardous liquids pipelines, leak detection is **system-based and performance-oriented**, with an explicit requirement to detect releases in a timely manner.
+
+Part 195 requires each hazardous liquids pipeline transporting product in single phase to have a **leak detection system** that:
+
+* Is capable of **promptly detecting leaks**
+* Generates **alerts or alarms**
+* Is supported by documented procedures for evaluation and response
+* Is periodically evaluated to ensure it performs as intended
+
+Computational Pipeline Monitoring (CPM) systems are explicitly allowed and commonly used, provided they meet the performance requirements of the rule and are designed in accordance with **API RP 1130**. Unlike gas distribution systems, hazardous liquids pipelines are generally expected to rely on **continuous monitoring**, rather than periodic field surveys alone.
+
+There are limited exceptions for certain gathering lines, but for most hazardous liquids pipelines, a formal leak detection system is mandatory.
+
+---
+
+### Practical comparison
+
+* **Gas distribution**
+
+  * Leak detection via **routine surveys and field response**
+  * Emphasis on **leak classification and repair**
+  * No requirement for automated detection systems
+
+* **Hazardous liquids**
+
+  * Leak detection via **installed systems** (often CPM)
+  * Emphasis on **timely detection and alarm**
+  * Formal performance and validation requirements
+
+---
+
+### Bottom line
+
+Gas distribution systems are regulated to **find and fix leaks through frequent physical inspections**, while hazardous liquids pipelines are regulated to **detect releases through continuous monitoring systems** capable of rapid identification and response.
+
+**Citations:**
+49 CFR Part 192, effective as of 12-10-2025, §192.706(a)–(c), *Leakage surveys*, PDF pp. 151–152
+
+49 CFR Part 192, effective as of 12-10-2025, §192.703(c), *General requirements* (hazardous leaks must be repaired promptly), PDF p. 149
+
+49 CFR Part 195, effective as of 12-10-2025, §195.134(b)–(c), *Leak detection* (general requirements and CPM use), PDF p. 41
+
+49 CFR Part 195, effective as of 12-10-2025, §195.444, *Leak detection*, PDF pp. 83–85
+"

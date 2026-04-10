@@ -1,0 +1,6 @@
+id,ticket_text,gold_category,gold_priority,gold_sentiment,pred_category,pred_priority,pred_sentiment,short_rationale,error
+ex_001,I was charged twice for my subscription and need a refund.,billing,high,negative,billing,high,negative,"Customer reports being charged twice for a subscription and requests a refund, indicating a billing issue with urgent financial impact.",no_proc_error
+ex_002,The mobile app crashes every time I upload a PDF.,technical,high,negative,technical,high,negative,"Customer reports a reproducible app crash during PDF upload, indicating a technical issue with significant impact on core functionality.",no_proc_error
+ex_003,I cannot sign in even after resetting my password twice.,account,high,negative,account,high,negative,"Customer cannot access their account despite multiple password reset attempts, indicating an urgent account access issue and frustration.",no_proc_error
+ex_004,Do you offer nonprofit discounts for annual plans?,other,low,neutral,billing,low,neutral,"Customer is asking about pricing/discount availability for annual plans, which is a billing inquiry with no urgent issue expressed.",no_proc_error
+ex_005,Please update the email on my account because I lost access to the old one.,account,medium,neutral,account,medium,neutral,Customer needs help updating account email after losing access to the old address.,no_proc_error
