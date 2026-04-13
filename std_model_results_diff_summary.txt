@@ -1,0 +1,104 @@
+Row 1
+- pred_response:
+  old: Overpressure protection is required where the pressure on a distribution line could exceed the line’s MAOP or the pressure limits for connected lower-pressure facilities; a district regulator station must be equipped to prevent accidental overpressuring of the downstream distribution system. Key conditions are in 49 CFR 192.195 (protective devices) and 192.197 (control of pressure), with district regulator station requirements in 192.199: if a single regulator failure could expose the downstream system to pressure above allowable limits, the station must provide suitable overpressure protective devices, and monitor regulators in series are required where needed to ensure the downstream pressure will not exceed safe limits.
+  new: Overpressure protection is required whenever a distribution line could be subjected to pressure above the maximum allowed by Part 192; specifically, each distribution system supplied from a source of gas that can exceed the system’s MAOP must have suitable pressure-limiting or pressure-regulating devices, plus protective devices where needed, to ensure the MAOP is not exceeded. Key conditions are in 49 CFR 192.195 (protection against accidental overpressuring), 192.197 (control of pressure), and 192.201 (required capacity of pressure-relieving and limiting stations): the protection must be sized and arranged for the possible failure scenario, and if a single regulator failure could overpressure the downstream distribution line, additional overpressure protection is required.
+- faithfulness_score:
+  old: 0.7142857142857143
+  new: 0.8333333333333334
+- llm_rationale:
+  old: The predicted answer correctly identifies the necessity for overpressure protection when pressures could exceed MAOP, and it mentions the importance of preventing accidental overpressuring of downstream systems. However, it lacks some specific details included in the gold answer regarding the context and conditions under which overpressure protection is required, especially for high and low-pressure distribution systems. It also does not explicitly cover the safety implications for customer gas-
+  new: The predicted answer captures most of the critical elements regarding when overpressure protection is required on distribution lines and refers to relevant sections of the CFR. However, it lacks the comprehensive detail present in the gold answer, such as the distinction between high-pressure and low-pressure systems, the specific mention of unsafe conditions for gas utilization equipment, and some additional nuances regarding regulatory compliance that emphasize safety considerations.
+- answer_relevance_rationale:
+  old: The answer directly addresses the question about when overpressure protection is required on a distribution line by explaining the conditions and regulations that necessitate such protection, citing specific sections of the relevant code.
+  new: The answer directly addresses the question by providing specific regulatory references and explaining the conditions under which overpressure protection is required on a distribution line. It covers all necessary details, making it comprehensive.
+- context_relevance_rationale:
+  old: The context provides comprehensive information on when overpressure protection is required on a distribution line, detailing conditions related to maximum allowable operating pressure (MAOP) and the safety measures necessary for both high-pressure and low-pressure distribution systems.
+  new: The context provides comprehensive details on when overpressure protection is required on distribution lines, including specific conditions and regulatory references. It directly addresses the question with clear explanations and relevant regulations.
+- faithfulness_rationale:
+  old: Supported 5/7 claims; unsupported: 2; not enough info: 0.
+  new: Supported 5/6 claims; unsupported: 0; not enough info: 1.
+
+Row 2
+- pred_response:
+  old: Yes—except where an exception applies, each new or replaced service line serving a single-family residence must have an excess flow valve (EFV) installed. The requirement also applies to branched service lines serving a single-family residence and to multi-family residential service lines with a known customer load not exceeding 1,000 SCFH per service, unless one of the listed exceptions applies in 49 CFR 192.383(a).
+
+Key exceptions/conditions: an EFV is not required if the service line cannot operate safely at available pressures, the operator has prior experience showing contaminants could interfere with EFV performance, an EFV could interfere with necessary operation or maintenance, or the operator determines no commercially available EFV meets the service-line performance needs; see 49 CFR 192.383(a). Existing residential service lines are not retroactively required to have EFVs solely because they are residential.
+  new: Yes—if the service line is a **new or replaced service line** that serves a **single-family residence**, an **excess flow valve (EFV)** must be installed. The same requirement also applies to a new or replaced service line serving a **branched single-family residence**, a **multifamily residence with known customer load not exceeding 1,000 SCFH per service**, or a **small commercial customer with known customer load not exceeding 1,000 SCFH per service**. See **49 CFR 192.383(a)**.
+
+Key exceptions/conditions: an EFV is **not required** if the operator documents that an EFV **would interfere with necessary operation or maintenance**, or that **no commercially available EFV** is compatible with the service line’s operating conditions (**49 CFR 192.383(c)**). Operators also must notify customers about EFVs under **49 CFR 192.383(e)**.
+- llm_rationale:
+  old: The predicted answer accurately states that new or replaced residential service lines need EFVs unless exceptions apply. It also mentions branched lines, which is correct. However, it lacks some detail about the specific requirements and exceptions like the operating pressure criteria and doesn't clarify the scope of the regulation as well as the gold answer. It also introduces a multi-family residential service line condition not mentioned in the gold answer, which could lead to confusion. Thus
+  new: The predicted answer correctly identifies that excess flow valves (EFVs) are required for new or replaced residential service lines and mentions specific scenarios where they apply. However, it misses detailing the specific requirements for branched service lines and some other exceptions highlighted in the gold answer, such as the requirement about operating at 10 psig or greater. Additionally, it introduces exceptions applicable to multifamily and small commercial customers, which aren't part
+- answer_relevance_rationale:
+  old: The answer directly addresses the question by confirming the need for excess flow valves in residential service lines, detailing both the requirement and the exceptions clearly. It provides comprehensive and relevant information.
+  new: The answer directly addresses the question by clearly stating that residential service lines require excess flow valves if they are new or replaced. It provides detailed regulatory references and exceptions, ensuring a full understanding of the requirements.
+- context_relevance_rationale:
+  old: The context provides a comprehensive explanation about the requirement for excess flow valves in residential service lines, detailing conditions under which they are necessary, specific exceptions, and applicable regulations. This directly answers the question.
+  new: The context clearly addresses the requirements for excess flow valves in residential service lines, detailing when they are necessary and outlining specific exceptions. This directly answers the question.
+- faithfulness_rationale:
+  old: Supported 5/8 claims; unsupported: 3; not enough info: 0.
+  new: Supported 5/8 claims; unsupported: 3; not enough info: 1.
+
+Row 3
+- pred_response:
+  old: Plastic pipe may not be operated at a pressure that exceeds the lowest limiting value under 49 CFR 192.121. For thermoplastic pipe, that means no more than the pressure determined from the HDB/HDS design formula in § 192.121, and in no case more than 100 psig for plastic pipe used in a service line under § 192.123(b); if the pipe is not listed/spec-qualified for gas service, it cannot be used under Part 192.
+  new: Plastic pipe may not be operated above the pressure limits in 49 CFR 192.121; the maximum allowable operating pressure is set by the pipe’s design basis and operating temperature, not a single universal psig cap. For thermoplastic pipe, the pressure must be determined from the HDB/HDS-based design formula in §192.121 using the applicable design factor and temperature derating; for reinforced thermosetting plastic pipe, §192.121 provides the corresponding pressure design basis.
+- llm_rationale:
+  old: The predicted answer correctly highlights the limits under 49 CFR 192.121, including the reference to the HDB/HDS design formula and the 100 psig limit for service lines. However, it lacks coverage of the conditions under which a higher pressure (up to 125 psig for PE pipe) may apply and does not detail that the maximum allowable operating pressure (MAOP) must be calculated according to design requirements. These omissions prevent it from being fully complete.
+  new: The predicted answer accurately states that the maximum operating pressure for plastic pipe is not a fixed value and is determined by the design basis, which is correct. It mentions relevant sections of the regulation and the need for design factors and temperature derating. However, it omits specific figures like the default limit of 100 psig and the maximum pressure for polyethylene pipe (125 psig), which are crucial details from the gold answer. Thus, while it captures the essence, it lacks a
+- answer_relevance_rationale:
+  old: The answer directly addresses the question by specifying the maximum operating pressure for plastic pipe, referencing relevant regulations and specific values. It thoroughly explains the conditions under which these limits apply.
+  new: The answer directly addresses the question by explaining that the maximum operating pressure for plastic pipe is not a fixed value and is determined by specific regulations (49 CFR 192.121), design basis, and operating temperature. It also specifies methods for determining the pressure for different types of plastic pipe, providing a comprehensive response.
+- context_relevance_rationale:
+  old: The context provides detailed information about the maximum operating pressure for plastic pipe, specifying the general limit of 100 psig and the conditions under which polyethylene pipe can operate at up to 125 psig. It addresses the core of the question effectively.
+  new: The context provides detailed information about the maximum operating pressure for plastic pipe, including specific values (100 psig and up to 125 psig for polyethylene) and the conditions under which these limits apply. It directly answers the question comprehensively.
+- faithfulness_rationale:
+  old: Supported 2/4 claims; unsupported: 2; not enough info: 0.
+  new: Supported 3/6 claims; unsupported: 3; not enough info: 0.
+
+Row 4
+- pred_response:
+  old: No. Under 49 CFR Part 192, each **new gas pipeline** must be **pressure tested** in accordance with Subpart J, but **new plastic pipelines** may instead be tested under the **leak test** provisions in **§ 192.513** rather than the hydrostatic/pneumatic strength test rules in **§§ 192.505–192.511**. In other words, new **steel/metal distribution lines** require a pressure test under Subpart J, while **plastic distribution lines** are subject to the specific test requirements and pressure/hold-time criteria in **§ 192.513**.
+  new: No. Under 49 CFR Part 192, a new distribution pipeline must be pressure tested under Subpart J before being placed in service, but the required test depends on the material and operating stress/pressure rather than applying identically to every line. Steel distribution lines are subject to §§ 192.505–192.507, while plastic distribution lines are tested under § 192.513; service lines have separate rules under § 192.511.
+- faithfulness_score:
+  old: 0.75
+  new: 0.8
+- llm_rationale:
+  old: The predicted answer provides a largely correct overview of the testing requirements for new distribution pipelines, noting that pressure testing is required and referencing the distinctions for plastic pipelines. However, it omits important details such as the necessity of testing all new distribution pipelines or equivalent testing for segments that are relocated/replaced, as outlined in the gold answer. Additionally, the specific implications for operating pressures and types of testing based
+  new: The predicted answer correctly identifies that new distribution pipelines must be pressure tested according to 49 CFR Part 192, referencing the different regulations that apply based on material type. However, it does not fully convey the requirement that the pipelines must not operate until all hazardous leaks are found and eliminated, nor does it mention the baseline standard for testing pipelines below 100 psig, which are only subject to leak testing. These omissions prevent it from being a '
+- answer_relevance_rationale:
+  old: The answer directly addresses the question by explaining the requirements for pressure testing new distribution pipelines, specifically distinguishing between steel/metal and plastic pipelines according to regulatory guidelines.
+  new: The answer directly addresses the question by explaining that pressure testing is required but varies based on the pipeline material and specific regulations, providing detailed references from the relevant code.
+- context_relevance_rationale:
+  old: The context directly addresses the question by confirming that pressure testing is required for all new distribution pipelines, while also explaining the different testing methods depending on the type of pipeline and its operation. This provides comprehensive detail necessary to answer the question.
+  new: The context provides a comprehensive explanation of the requirements for pressure testing new distribution pipelines, including specific types of testing based on pipeline characteristics and regulations, making it fully relevant to the question.
+- faithfulness_rationale:
+  old: Supported 3/4 claims; unsupported: 1; not enough info: 0.
+  new: Supported 4/5 claims; unsupported: 1; not enough info: 0.
+
+Row 5
+- pred_response:
+  old: A distribution system operating above 60 psig must have overpressure protective devices that meet the distribution system requirements in 49 CFR 192.201 and the regulator station protection requirements in 49 CFR 192.195. In practice, the protection must prevent the downstream pressure from exceeding the MAOP of the distribution system and, where a single regulator failure could expose the system to unsafe pressure, protection must be provided by a relief valve, monitor regulator, automatic shutoff device, or another approved method; if no worker is present to monitor and promptly correct malfunctions, the protection must operate automatically.
+
+Key thresholds/conditions:
+- Above 60 psig is the trigger for the higher-pressure distribution overpressure concern; the downstream system cannot be left dependent on a single regulator without adequate overpressure protection.
+- The protective arrangement must be sized/set so the protected system does not exceed its MAOP, and the specific device configuration depends on the inlet pressure, regulator failure scenario, and whether relief gas can be safely handled.
+  new: A distribution system operating above 60 psig must have overpressure protective devices that meet the requirements for distribution systems in 49 CFR 192.195. In general, the protection must prevent the pressure from exceeding the MAOP of the downstream system, and where a single device cannot provide the required reliability, monitor regulation, a series regulator arrangement, or other redundant overpressure protection may be required depending on the regulator station design and failure scenario.
+
+Key condition: the rule is tied to the downstream distribution system pressure and the ability of the protective equipment to limit pressure safely; the specific configuration depends on whether failure of a regulator or relief device could expose the system to pressure above its MAOP.
+- faithfulness_score:
+  old: 0.6666666666666666
+  new: 0.8333333333333334
+- llm_rationale:
+  old: The predicted answer accurately identifies the need for overpressure protection devices in a distribution system operating above 60 psig, referencing relevant regulations (49 CFR 192.201 and 49 CFR 192.195). It explains that protection must prevent downstream pressure from exceeding MAOP and acknowledges the risk of single regulator failure. However, it lacks specific details on the series arrangement of pressure limiting devices, which is a critical aspect mentioned in the gold answer. While it
+  new: The predicted answer correctly identifies the need for overpressure protective devices that adhere to 49 CFR 192.195 and emphasizes the importance of preventing pressure from exceeding the MAOP. However, it lacks specific details regarding the requirement for pressure limiting devices arranged in series, the need for configurations that prevent unsafe overpressuring from single failures, and specific mention of the types of acceptable devices (monitor regulators, relief devices, etc.) discussed.
+- answer_relevance_rationale:
+  old: The answer directly addresses the requirements for overpressure protection in a distribution system operating above 60 psig, citing relevant regulations and detailing the necessary safety measures.
+  new: The answer directly addresses the question regarding overpressure protection for distribution systems operating above 60 psig by referencing specific regulatory standards and describing the necessary protective measures effectively. It comprehensively covers key aspects needed for compliance.
+- context_relevance_rationale:
+  old: The context provides comprehensive details about the overpressure protection requirements for distribution systems operating above 60 psig, including the necessity of pressure limiting devices, specific regulations, and design considerations. It directly addresses the question, ensuring all key aspects are covered.
+  new: The context provides specific details about the requirements for overpressure protection in distribution systems operating above 60 psig, including necessary equipment and design specifications. It directly addresses the question, ensuring the response is comprehensive and accurate.
+- faithfulness_rationale:
+  old: Supported 6/9 claims; unsupported: 3; not enough info: 0.
+  new: Supported 5/6 claims; unsupported: 0; not enough info: 0.
+

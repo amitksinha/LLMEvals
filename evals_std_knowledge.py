@@ -20,6 +20,12 @@ DATASET_COPY_CSV = "std_eval_dataset_copy.csv"
 RESULTS_CSV = "std_model_results.csv"
 UNSUPPORTED_CLAIMS_CSV = "std_unsupported_claims.csv"
 MAX_ROWS = 5
+PROMPT_FILE = "task_prompt.txt"
+DEFAULT_TASK_PROMPT = (
+    "You answer regulatory compliance questions."
+    " Provide a concise, accurate response."
+    " Use plain text only."
+)
 
 
 class LLMGrade(BaseModel):
@@ -119,12 +125,17 @@ def save_dataset_copy(records: List[StdRecord], path: str) -> None:
             writer.writerow(asdict(record))
 
 
-def run_task_model(client: OpenAI, record: StdRecord) -> str:
-    prompt = (
-        "You answer regulatory compliance questions."
-        " Provide a concise, accurate response."
-        " Use plain text only."
-    )
+def load_task_prompt() -> str:
+    prompt_path = os.environ.get("TASK_PROMPT_FILE", PROMPT_FILE)
+    if os.path.exists(prompt_path):
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            prompt = f.read().strip()
+        if prompt:
+            return prompt
+    return DEFAULT_TASK_PROMPT
+
+
+def run_task_model(client: OpenAI, record: StdRecord, prompt: str) -> str:
     input_text = f"Standard: {record.standard}\nQuestion: {record.query}"
 
     response = client.responses.create(
@@ -373,6 +384,7 @@ def classify_error(err: Exception) -> str:
 
 def main() -> None:
     client = get_client()
+    task_prompt = load_task_prompt()
     records = load_std_dataset(INPUT_CSV)
     if MAX_ROWS is not None:
         records = records[:MAX_ROWS]
@@ -403,7 +415,7 @@ def main() -> None:
 
         try:
             print("Running task model...")
-            pred_response = run_task_model(client, record)
+            pred_response = run_task_model(client, record, task_prompt)
             print("Task model done.")
         except Exception as e:
             error_type = classify_error(e)
